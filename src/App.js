@@ -1,10 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
+import Profile from './Components/Profile.js';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
+        <div className="app-container">
+          <div className="myname">
+            <h1>Brad Vatne</h1>
+            <p>Interactive Resume</p>
+          </div>
+        </div>
+        <Profile />
       </div>
     );
   }

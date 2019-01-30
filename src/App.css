@@ -8,3 +8,21 @@ body {
   font-family: Verdana, Geneva, sans-serif;
 }
 
+
+.app-container {
+  color: white;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: url(bg.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.myname {
+  position: relative;
+  top: 40%
+}
