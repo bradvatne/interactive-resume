@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 * {
   padding: 0;
   margin: 0;
@@ -5,7 +7,16 @@
 }
 
 body {
-  font-family: Verdana, Geneva, sans-serif;
+  font-family: Raleway, Verdana, Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: uppercase;
 }
 
 
@@ -24,5 +35,47 @@ body {
 
 .myname {
   position: relative;
-  top: 40%
+  top: 40%;
+  height: 100px;
+}
+
+.myname h1 {
+  border-bottom: 1px solid white;
+  padding: 10px;
+}
+
+.myname p {
+  padding: 10px;
+}
+
+.Profile {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.aboutme {
+  width: 75%;
+  min-width: 700px;
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+
+.aboutme p {
+  padding: 30px;
+  border-bottom: 1px solid black;
+}
+
+.aboutme-boxes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 40px;
+}
+
+.aboutme-boxes img {
+  border-radius: 50%;
 }
