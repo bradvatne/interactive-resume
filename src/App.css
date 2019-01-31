@@ -8,6 +8,7 @@
 
 body {
   font-family: Raleway, Verdana, Geneva, sans-serif;
+  line-height: 1.4;
 }
 
 h1 {
@@ -16,9 +17,18 @@ h1 {
 }
 
 h2 {
+  font-size: 2rem;
   text-transform: uppercase;
 }
 
+h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+strong{
+  color: black;
+}
 
 .app-container {
   color: white;
@@ -49,13 +59,13 @@ h2 {
 }
 
 .Profile {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-content: center;
   justify-content: center;
 }
 
-.aboutme {
+.section-head {
   width: 75%;
   min-width: 700px;
   display: flex;
@@ -65,9 +75,9 @@ h2 {
   padding: 30px;
 }
 
-.aboutme p {
+.section-head p {
   padding: 30px;
-  border-bottom: 1px solid black;
+  color: #727878;
 }
 
 .aboutme-boxes {
@@ -78,4 +88,17 @@ h2 {
 
 .aboutme-boxes img {
   border-radius: 50%;
+  border: .1rem solid black;
+}
+
+.aboutme-box p {
+  text-align: left;
+}
+
+.Experiences {
+  height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: lightgrey;
 }
