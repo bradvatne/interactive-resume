@@ -4,7 +4,7 @@ import Portrait from './brad.jpg'
 export class Profile extends Component {
   render() {
     return (
-      <div className="Profile">
+      <div className="component">
         <div className="section-head">
             <h1>Profile</h1>
             <p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p>

@@ -14,6 +14,10 @@ body {
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
+  text-shadow: 2px 2px 0px rgba(0,0,0,.2);
+  border-bottom: 1px solid #727878;
+  border-width: 50%;
+  padding: 10px;
 }
 
 h2 {
@@ -31,12 +35,11 @@ strong{
 }
 
 .app-container {
-  color: white;
   height: 100vh;
   display: flex;
   text-align: center;
   justify-content: center;
-  background: url(bg.jpeg) no-repeat center center fixed; 
+  background-color:  #FFFFDD;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,20 +52,17 @@ strong{
   height: 100px;
 }
 
-.myname h1 {
-  border-bottom: 1px solid white;
-  padding: 10px;
-}
-
 .myname p {
   padding: 10px;
 }
 
-.Profile {
+.component {
   height: 80vh;
   display: flex;
   align-content: center;
   justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .section-head {
@@ -72,7 +72,6 @@ strong{
   align-content: center;
   flex-direction: column;
   text-align: center;
-  padding: 30px;
 }
 
 .section-head p {
@@ -88,7 +87,7 @@ strong{
 
 .aboutme-boxes img {
   border-radius: 50%;
-  border: .1rem solid black;
+  border: .3rem solid  #FFFFDD;
 }
 
 .aboutme-box p {
@@ -100,5 +99,21 @@ strong{
   display: flex;
   align-content: center;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: #FFFFDD;
+}
+
+.Experiences h1 {
+  margin-top: 30px;
+}
+
+.Projects {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.Contact {
+
 }
