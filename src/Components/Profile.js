@@ -6,12 +6,11 @@ export class Profile extends Component {
     return (
       <div className="component">
         <div className="section-head">
-            <h1>Profile</h1>
-            <p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p>
+            <h1>Profile</h1><br/><p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p><br/><hr/>
             <div className="aboutme-boxes">
                 <div className="aboutme-box">
                     <h2>About me</h2>
-                    <p>I'm currently a student at the University of Victoria in beautiful British Columbia. I took a 6 year gap in the middle of my degree to work, save money, travel the world, and soul search. I learned alot about myself and was inspired to head back to school to finish my degree. <br></br>In my spare time, I enjoy cooking plant-based cruisine with my wonderful girlfriend, reading, running, listening to podcasts, and writing code of all sorts.</p>
+                    <p>I'm currently a student at the University of Victoria in beautiful British Columbia. I took a 6 year gap in the middle of my degree to work, save money, travel the world, and soul search. I learned alot about myself and was inspired to head back to school to finish my degree. <br></br>In my spare time, I enjoy trying out new restaurants with my girlfriend, reading, running, listening to podcasts, and writing code of all sorts.</p>
                 </div>
                 <div className="aboutme-box">
                     <img src={Portrait} alt="Brad's Portrait"/>
