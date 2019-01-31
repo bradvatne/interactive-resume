@@ -3,11 +3,13 @@ import React, { Component } from 'react'
 export class Abilities extends Component {
   render() {
     return (
-      <div>
-        
+      <div className="component">
+        <div className="container">
+         <h1>Abilities</h1><br/><p>THE SKILLS TO PAY THE BILLS</p><br/><hr/><br/>
+        </div>
       </div>
     )
   }
 }
 
-export default Abilities
+export default Abilities;

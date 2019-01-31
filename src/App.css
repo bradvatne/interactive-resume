@@ -27,17 +27,31 @@ h3 {
   text-transform: uppercase;
 }
 
+hr {
+  margin: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 strong{
   color: black;
 }
 
-.app-container {
+.left{
+  text-align: left;
+}
+
+.bg-light {
+  background-color: #FFFFDD;
+}
+
+.app {
   height: 100vh;
   min-height: 800px;
   display: flex;
   text-align: center;
   justify-content: center;
-  background-color:  #FFFFDD;
+  background-image: url('bg.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,23 +60,20 @@ strong{
 
 .myname {
   position: relative;
-  top: 40%;
+  top: 30%;
   height: 100px;
-}
-
-.myname p {
-  padding: 10px;
+  color: white;
 }
 
 .component {
-  height: 800px;
   display: flex;
   align-content: center;
   justify-content: center;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.section-head {
+.container {
   width: 75%;
   min-width: 700px;
   display: flex;
@@ -88,40 +99,22 @@ strong{
   padding: 20px;
 }
 
-.Experiences h1 {
-  margin-top: 30px;
-}
-
-.experience-boxes {
-  margin-top: 20px;
-}
-
 .experiences-box {
-display: flex;
-padding: 0;
-margin: 0;
-}
-
-.experience-title {
-text-align: left;
-padding: 0;
-margin: 0;
-}
-
-.experience-description {
-text-align: left;
-padding: 0;
-margin: 0;
-}
-
-.Projects {
   display: flex;
-  align-content: center;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  padding: 0;
+  margin: 0;
 }
 
-.Contact {
+.experiences-title {
+text-align: left;
+padding: 0;
+margin: 0;
+width: 30%;
+}
 
+.experiences-description {
+text-align: left;
+padding: 0;
+margin: 0;
+max-width: 70%
 }

@@ -5,7 +5,7 @@ export class Profile extends Component {
   render() {
     return (
       <div className="component">
-        <div className="section-head">
+        <div className="container">
             <h1>Profile</h1><br/><p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p><br/><hr/>
             <div className="aboutme-boxes">
                 <div className="aboutme-box">
