@@ -4,8 +4,7 @@ import Portrait from './brad.jpg'
 export class Profile extends Component {
   render() {
     return (
-      <div className="component">
-        <div className="container">
+         <div className="container">
             <h1>Profile</h1><br/><p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p><br/><hr/>
             <div className="aboutme-boxes">
                 <div className="aboutme-box">
@@ -20,9 +19,9 @@ export class Profile extends Component {
                     <p><strong>NAME</strong><br/>Brad Vatne<br/><br/><strong>AGE</strong><br/>27<br/><br/><strong>LOCATION<br/></strong>Victoria, BC, Canada<br/><br/><strong>FAVORITE DESTINATION</strong><br/>Northern India
                     </p>
                 </div>
+                </div>
             </div>
-        </div>
-      </div>
+        
     )
   }
 }

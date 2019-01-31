@@ -9,6 +9,7 @@
 body {
   font-family: Raleway, Verdana, Geneva, sans-serif;
   line-height: 1.4;
+  color: white;
 }
 
 h1 {
@@ -31,15 +32,34 @@ hr {
   margin: 30px;
   margin-left: 0px;
   margin-right: 0px;
+  animation-name: lineOut;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
-strong{
-  color: black;
+
+
+.navlist{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: fixed;
+}
+
+
+.link {
+  text-decoration: none;
+  color: white;
 }
 
 .left{
   text-align: left;
 }
+
+.right {
+  text-align: right;
+}
+
 
 .bg-light {
   background-color: #FFFFDD;
@@ -47,10 +67,10 @@ strong{
 
 .app {
   height: 100vh;
-  min-height: 800px;
   display: flex;
+  flex-direction: column;
   text-align: center;
-  justify-content: center;
+  overflow: hidden;
   background-image: url('bg.jpeg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -58,28 +78,48 @@ strong{
   background-size: cover;
 }
 
+.layer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, .4);
+  animation: fadeIn;
+  animation-duration: 4s;
+}
+
 .myname {
-  position: relative;
-  top: 30%;
-  height: 100px;
   color: white;
 }
 
 .component {
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  display: grid;
+  grid-template-columns: 150px auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.nav-container {
   display: flex;
   align-content: center;
   justify-content: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 12px;
 }
 
+.navbar {
+  width: 100px;
+}
 .container {
   width: 75%;
   min-width: 700px;
   display: flex;
   align-content: center;
   flex-direction: column;
-  text-align: center;
+  text-align: left;
+  overflow: scroll;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 
 
@@ -91,12 +131,13 @@ strong{
 
 .aboutme-boxes img {
   border-radius: 50%;
-  border: 1rem solid  #FFFFDD;
+  border: .5rem solid white;;
 }
 
 .aboutme-box p {
   text-align: left;
   padding: 20px;
+  padding-left: 0px;
 }
 
 .experiences-box {
@@ -106,15 +147,35 @@ strong{
 }
 
 .experiences-title {
-text-align: left;
-padding: 0;
-margin: 0;
-width: 30%;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  width: 30%;
 }
 
 .experiences-description {
-text-align: left;
-padding: 0;
-margin: 0;
-max-width: 70%
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  max-width: 70%
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform-origin: 0% 10%;}
+  to {
+    opacity: 1;
+    transform-origin: 0% 0%;}
+} 
+
+@keyframes lineOut {
+  from {
+    left:50%;
+    width:0%;
+  }
+  to {
+    left:5%;
+    width:90%;
+  }
 }
