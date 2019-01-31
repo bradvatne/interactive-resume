@@ -57,7 +57,7 @@ strong{
 }
 
 .component {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -87,19 +87,11 @@ strong{
 
 .aboutme-boxes img {
   border-radius: 50%;
-  border: .3rem solid  #FFFFDD;
+  border: 1rem solid  #FFFFDD;
 }
 
 .aboutme-box p {
   text-align: left;
-}
-
-.Experiences {
-  height: 100vh;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  background-color: #FFFFDD;
 }
 
 .Experiences h1 {

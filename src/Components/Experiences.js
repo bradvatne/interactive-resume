@@ -8,7 +8,8 @@ export class Experiences extends Component {
             <div className="section-head">
                 <h1>EXPERIENCES</h1>
                 <p>SCHOOL, WORK, TRAVEL</p>
-                <div>
+                <div className="education">
+                
 
                 </div>
             </div>
