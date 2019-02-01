@@ -37,8 +37,6 @@ hr {
   animation-fill-mode: forwards;
 }
 
-
-
 .navlist{
   display: flex;
   flex-direction: column;
@@ -131,7 +129,8 @@ hr {
 
 .aboutme-boxes img {
   border-radius: 50%;
-  border: .5rem solid white;;
+  border: .2rem solid white;
+  margin: 20px;
 }
 
 .aboutme-box p {
@@ -163,10 +162,10 @@ hr {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform-origin: 0% 10%;}
+    transform: translateY(-20px);}
   to {
     opacity: 1;
-    transform-origin: 0% 0%;}
+    transform: translateY(0);}
 } 
 
 @keyframes lineOut {
