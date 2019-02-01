@@ -5,7 +5,7 @@ export class Contact extends Component {
     return (
         <div className="container">
         <div className="fadeIn">
-          <h1>Contact</h1><br/><p>REACH OUT AND LET'S CONNECT</p><br/><hr/>
+          <h1>Contact</h1><hr/><br/>
         </div>
         </div>
     )

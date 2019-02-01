@@ -5,7 +5,7 @@ export class Education extends Component {
     return (
       <div className="container">
       <div className="fadeIn">
-        <h1>EDUCATION</h1><br/><p></p><br/><hr/>
+        <h1>EDUCATION</h1><hr/><br/>
         <div className="experiences-box">
           <div className="experiences-title">
             <p>

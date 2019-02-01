@@ -6,7 +6,7 @@ export class Employment extends Component {
       return (
         <div className="container">
         <div className="fadeIn">
-        <h1>EMPLOYMENT</h1><br/><p>WORKING MY WAY UP FROM THE BOTTOM</p><br/><hr/>
+        <h1>EMPLOYMENT</h1><hr/><br/>
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
@@ -30,7 +30,9 @@ export class Employment extends Component {
                 provided general advice in all manners of marketing
               </p>
             </div>
+            
           </div>
+          <hr/>
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
@@ -52,7 +54,7 @@ export class Employment extends Component {
               </p>
             </div>
           </div>
-  
+          <hr/>
           <div className="experiences-box">
             <div className="experiences-title">
               <p>

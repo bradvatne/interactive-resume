@@ -5,7 +5,7 @@ export class Name extends Component {
     return (
       <div className="container">
       <div className="fadeIn">
-        <div className="myname"><h1>Brad Vatne</h1><br/><p>INTER-REACT-IVE RESUME</p><br/><hr/></div>
+        <div className="myname"><h1>BRAD VATNE</h1><hr/><br/></div>
       </div>
       </div>
     )

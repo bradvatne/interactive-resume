@@ -6,7 +6,7 @@ export class Profile extends Component {
     return (
          <div className="container">
          <div className="fadeIn">
-            <h1>Profile</h1><br/><p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p><br/><hr/>
+            <h1>Profile</h1><hr/>
             <div className="aboutme-boxes">
                 <div className="aboutme-box">
                     <h2>About me</h2>
