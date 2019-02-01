@@ -18,7 +18,6 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "now-build": "react-scripts build && mv build dist"
-    
   },
   "eslintConfig": {
     "extends": "react-app"
