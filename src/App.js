@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Profile from './Components/Profile.js';
-import Experiences from './Components/Experiences.js';
+import Education from './Components/Education.js';
+import Employment from './Components/Employment.js';
 import Projects from './Components/Projects.js';
 import Contact from './Components/Contact.js';
 import Abilities from './Components/Abilities.js';
@@ -23,7 +24,8 @@ class App extends Component {
          <Switch>
            <Route exact path ="/" component={Name}/>
            <Route path ='/profile' component={Profile}/>
-           <Route path ='/experiences' component={Experiences}/>
+           <Route path ='/education' component={Education}/>
+           <Route path ='/employment' component={Employment}/>
            <Route path ='/abilities' component={Abilities}/>
            <Route path ='/projects' component={Projects}/>
            <Route path ='/contact' component={Contact}/>
