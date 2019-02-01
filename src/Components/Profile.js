@@ -5,6 +5,7 @@ export class Profile extends Component {
   render() {
     return (
          <div className="container">
+         <div className="fadeIn">
             <h1>Profile</h1><br/><p>UNIVERSITY STUDENT, WORLD TRAVELLER, ASPIRING WEB DEVELOPER</p><br/><hr/>
             <div className="aboutme-boxes">
                 <div className="aboutme-box">
@@ -21,7 +22,7 @@ export class Profile extends Component {
                 </div>
                 </div>
             </div>
-        
+        </div>
     )
   }
 }
