@@ -6,6 +6,10 @@
 
 }
 
+html {
+  overflow: hidden;
+}
+
 body {
   font-family: Raleway, Verdana, Geneva, sans-serif;
   line-height: 1.4;
@@ -58,11 +62,6 @@ hr {
   text-align: right;
 }
 
-
-.bg-light {
-  background-color: #FFFFDD;
-}
-
 .app {
   height: 100vh;
   display: flex;
@@ -85,8 +84,17 @@ hr {
   animation-duration: 4s;
 }
 
-.myname {
-  color: white;
+.heading {
+  animation-name: slideIn;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.overflow {
+  overflow: scroll;
+  height: 400px;
+  margin-bottom: 50px;
+  padding-bottom: 50px;
 }
 
 .component {
@@ -96,6 +104,7 @@ hr {
   grid-template-columns: 150px auto;
   padding-top: 30px;
   padding-bottom: 30px;
+  overflow: hidden;
 }
 
 .nav-container {
@@ -111,6 +120,7 @@ hr {
 .container {
   width: 75%;
   min-width: 700px;
+  height: 750px;
   display: flex;
   align-content: center;
   flex-direction: column;
@@ -118,6 +128,8 @@ hr {
   overflow: scroll;
   animation-name: fadeIn;
   animation-duration: 1s;
+
+  margin-bottom: 50px;
 }
 
 
@@ -162,11 +174,21 @@ hr {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(-20px);}
+    transform: translateX(-20px);}
   to {
     opacity: 1;
-    transform: translateY(0);}
+    transform: translateX(0);}
 } 
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+    transform: translateX(0px);}
+  to {
+    opacity: 1;
+    transform: translateX(30px);}
+  }
+
 
 @keyframes lineOut {
   from {
@@ -178,3 +200,11 @@ hr {
     width:90%;
   }
 }
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);}
+  to {
+    opacity: 1;
+    transform: translateX(0);}
+} 
