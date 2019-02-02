@@ -18,6 +18,7 @@ class App extends Component {
         <div className="app">
         <div className="layer">
         <div className="component">
+        <div className="container">
         <Nav />       
 
 
@@ -30,6 +31,7 @@ class App extends Component {
            <Route path ='/projects' component={Projects}/>
            <Route path ='/contact' component={Contact}/>
          </Switch>
+        </div>
         </div>
         </div>
         </div>

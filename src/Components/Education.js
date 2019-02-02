@@ -3,9 +3,7 @@ import React, { Component } from "react";
 export class Education extends Component {
   render() {
     return (
-      <div className="container">
       <div className="fadeIn">
-        <h1>EDUCATION</h1><hr/><br/>
         <div className="experiences-box">
           <div className="experiences-title">
             <p>
@@ -33,7 +31,6 @@ export class Education extends Component {
           </div>
         </div>
         <hr />
-      </div>
       </div>
     );
   }
