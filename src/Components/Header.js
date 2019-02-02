@@ -1,17 +1,19 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 export class Header extends Component {
-
-
+  constructor(props) {
+    super(props);
+    
+  }
+  
   render() {
     return (
-      <div>
-            <h1>
-                
-            </h1><hr/>
+      <div className="fadeIn">
+        <h1 className>{this.props.header}</h1>
+        <hr />
       </div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;

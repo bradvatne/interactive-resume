@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Profile from "./Profile.js";
+import Header from "./Header.js";
 
 export class Nav extends Component {
   constructor(props) {
@@ -90,11 +91,8 @@ export class Nav extends Component {
             </Link>
           </li>
         </ul>
-        
-        <div className="fadeIn">
-        <h1 className>{heading}</h1>
-        <hr/>
-        </div>
+
+      <Header header = {heading}/>
       </div>
     );
   }
