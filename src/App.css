@@ -41,32 +41,34 @@ hr {
   animation-fill-mode: forwards;
 }
 
-p {
+/* p {
   animation-name: fadeIn;
   animation-duration: 1s;
-}
+} */
 
 .navlist{
-  position: relative;
   width: 100%;
   top: 0px;
   list-style: none;
   margin-right: 0px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-container {
+  padding-bottom: 40px;
 }
 
 
 .link {
   text-decoration: none;
   color: white;
-  margin-right: 20px
 }
 
 .link:hover {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
-  margin-right: 20px
 }
 
 .left{
@@ -136,9 +138,10 @@ p {
   padding: 50px;
   background-color: rgba(0,0,0, .4);
 }
+
 .aboutme-boxes {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   padding-top: 40px;
 }
 
@@ -177,6 +180,7 @@ p {
 .fadeIn{
   animation-name: fadeIn;
   animation-duration: 1s;
+  padding:
 }
 
 @keyframes fadeIn {
@@ -216,3 +220,51 @@ p {
     opacity: 1;
     transform: translateX(0);}
 } 
+
+@media screen and (max-width: 1025px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: left;
+    overflow: scroll;
+    margin: auto;
+    background-color: rgba(0,0,0, .4);
+    padding:0;
+  }
+
+  .header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .aboutme-boxes {
+    grid-template-columns: 1fr;
+    padding: 40px;
+    padding-top: 0px;
+  }
+
+  .aboutme-box1 {
+  }
+  
+  .aboutme-box2 {
+    justify-self: center;
+  }
+  
+  .aboutme-box3 {
+  }
+
+  .nav-container{
+    width: 90%;
+    padding: 50px;
+    padding-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 812px) {
+
+}
+

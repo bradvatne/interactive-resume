@@ -19,6 +19,7 @@ export class Header extends Component {
   render() {
     return (
       <div className="fadeIn">
+      <br/>
         <h1 className="fadeIn">{this.props.header}</h1>
         <hr />
       </div>

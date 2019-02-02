@@ -5,9 +5,10 @@ export class Profile extends Component {
   render() {
     return (
       <div className="fadeIn">
+      <div className="header"><h1>PROFILE</h1><hr/></div>
         <div className="aboutme-boxes">
-          <div className="aboutme-box">
-            <h2>About me</h2>
+          <div className="aboutme-box1">
+            <h2>About me</h2><br/>
             <p>
               I'm currently a student at the University of Victoria in beautiful
               British Columbia. I took a 6 year gap in the middle of my degree
@@ -18,10 +19,10 @@ export class Profile extends Component {
               podcasts, and writing code of all sorts.
             </p>
           </div>
-          <div className="aboutme-box">
+          <div className="aboutme-box2">
             <img src={Portrait} alt="Brad's Portrait" />
           </div>
-          <div className="aboutme-box">
+          {/* <div className="aboutme-box3">
             <h2>Details</h2>
             <p>
               <strong>NAME</strong>
@@ -45,7 +46,7 @@ export class Profile extends Component {
               <br />
               Northern India
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     );

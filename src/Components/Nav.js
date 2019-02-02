@@ -23,7 +23,7 @@ export class Nav extends Component {
 
     //THIS IS AN ABSOLUTE SHITSHOW OF CODE
     return (
-      <div>
+      <div className="nav-container">
         <ul className="navlist" id="navlist">
           <li className="right">
             <Link
@@ -91,8 +91,8 @@ export class Nav extends Component {
             </Link>
           </li>
         </ul>
-
-      <Header header = {heading}/>
+{/* 
+      <Header header = {heading}/> */}
       </div>
     );
   }

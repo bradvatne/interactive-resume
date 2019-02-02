@@ -12,7 +12,11 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class App extends Component {
 
+  
+
   render() {
+    var profile = '/profile';
+
     return (
       <Router>
         <div className="app">
@@ -24,7 +28,7 @@ class App extends Component {
 
          <Switch>
            <Route exact path ="/" component={Name}/>
-           <Route path ='/profile' component={Profile}/>
+           <Route path = {profile} component={Profile}/>
            <Route path ='/education' component={Education}/>
            <Route path ='/employment' component={Employment}/>
            <Route path ='/abilities' component={Abilities}/>
