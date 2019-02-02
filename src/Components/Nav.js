@@ -19,7 +19,7 @@ export class Nav extends Component {
   // return (tab.classList.contains('active') ? tab.classList.add('active') : null)}
 
   render() {
-    var heading = <h1 class="heading-animate">{this.state.currentPage}</h1>;
+    var heading = this.state.currentPage;
 
     //THIS IS AN ABSOLUTE SHITSHOW OF CODE
     return (

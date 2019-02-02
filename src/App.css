@@ -63,6 +63,12 @@ p {
   margin-right: 20px
 }
 
+.link:hover {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  margin-right: 20px
+}
+
 .left{
   text-align: left;
 }
