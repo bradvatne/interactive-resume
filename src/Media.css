@@ -28,6 +28,19 @@
     justify-self: center;
   }
 
+  .experiences-box{
+      flex-direction: column;
+  }
+
+  .experiences-title{
+      width: 100%;
+      padding-bottom: 50px;
+  }
+
+  .experiences-description {
+      width: 100%;
+  }
+
   .site-head {
     display: none;
   }
@@ -45,11 +58,13 @@
     margin-top: 75px;
     padding: 20px;
     padding-top: 0px;
+    padding-bottom: 0px;
   }
 
   .drop-menu {
     display: block;
     position: fixed;
+    top: 0px;
     height: 50px;
     width: 100%;
   }
@@ -57,12 +72,6 @@
   .drop-menu h1 {
     padding: 20px;
     padding-bottom: 0px;
-  }
-
-  .deadspace {
-    display: block;
-    visibility: hidden;
-    height: 50px;
   }
 
   .title {

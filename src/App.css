@@ -138,7 +138,7 @@ p {
 }
 
 .container {
-  width: 900px;
+  width: 1000px;
   height: 100%;
   display: flex;
   align-content: center;
@@ -146,7 +146,6 @@ p {
   text-align: left;
   overflow: scroll;
   margin: auto;
-  padding: 50px;
   background-color: rgba(0,0,0, .4);
 }
 
@@ -156,6 +155,7 @@ p {
 
 .site-head {
   display: flex;
+  padding: 50px;
 }
 
 .site-head h1{
@@ -164,10 +164,6 @@ p {
 }
 
 .drop-menu {
-  display: none;
-}
-
-.deadspace {
   display: none;
 }
 
@@ -211,7 +207,9 @@ p {
 .fadeIn{
   animation-name: fadeIn;
   animation-duration: 1s;
-  padding:
+  padding: 50px;
+  padding-top: 0px;
+
 }
 
 @keyframes fadeIn {

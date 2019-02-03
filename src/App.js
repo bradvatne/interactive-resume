@@ -35,9 +35,11 @@ class App extends Component {
           <div className="component">
             <Router>
               <div className="container">
-                <div className="drop-menu"><h1>BRAD VATNE</h1></div>
-                <div className="deadspace">Render</div>
+                <div>
                 <Nav pageHandler={this.pageHandler} />
+                <div className="drop-menu"><h1>BRAD VATNE</h1></div>
+                </div>
+                
 
                 <Switch>
                   <Route exact path="/" component={Name} />
