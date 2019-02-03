@@ -11,6 +11,7 @@ import Projects from "./Components/Projects.js";
 import Contact from "./Components/Contact.js";
 import Abilities from "./Components/Abilities.js";
 import Name from "./Components/Name.js";
+import SmallNav from "./Components/SmallNav.js";
 
 class App extends Component {
   constructor(props) {
@@ -36,13 +37,12 @@ class App extends Component {
             <Router>
               <div className="container">
                 <div>
-                <Nav pageHandler={this.pageHandler} />
-                <div className="drop-menu"><h1>BRAD VATNE</h1></div>
+                  <Nav pageHandler={this.pageHandler} />
                 </div>
-                
 
                 <Switch>
                   <Route exact path="/" component={Name} />
+                  <Route path="/menu" component={SmallNav} />
                   <Route path="/profile" component={Profile} />
                   <Route path="/education" component={Education} />
                   <Route path="/employment" component={Employment} />

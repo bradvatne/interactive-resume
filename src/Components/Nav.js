@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
-
 export class Nav extends Component {
   constructor(props) {
     super(props);
@@ -15,6 +14,20 @@ export class Nav extends Component {
     var pageHandler = this.props.pageHandler;
     return (
       <div className="site-head">
+        <div className="drop-menu">
+          <Link
+            id="home"
+            className="link"
+            to={"/"}
+            onClick={() => pageHandler("/home")}
+          >
+            <h1>BRAD VATNE</h1>
+          </Link>
+          <Link to="/menu">
+            <i className="fas fa-angle-down" />
+          </Link>
+        </div>
+        <div className="large-screen">
           <ul className="navlist" id="navlist">
             <li className="right">
               <Link
@@ -82,10 +95,9 @@ export class Nav extends Component {
               </Link>
             </li>
           </ul>
-          </div>
-    )
-
-    
+        </div>
+      </div>
+    );
   }
 }
 

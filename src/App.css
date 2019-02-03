@@ -153,13 +153,14 @@ p {
   display: none;
 }
 
-.site-head {
+.large-screen {
   display: flex;
   padding: 50px;
   padding-bottom: 0;
 }
 
-.site-head h1{
+
+.large-screen h1{
   margin-bottom: 0;
   line-height: 1;
 }

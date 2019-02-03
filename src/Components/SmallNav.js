@@ -13,9 +13,6 @@ export class SmallNav extends Component {
 
   render() {
 
-    let expanded = this.state.expanded;
-    let visible = '';
-    expanded ? visible = 'show' : visible = '';
 
     console.log(this.props.test);
     var pageHandler = this.props.pageHandler;

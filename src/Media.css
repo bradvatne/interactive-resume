@@ -1,10 +1,8 @@
 @media screen and (max-width: 1025px) {
-
-    hr {
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
   .container {
     width: 100%;
@@ -35,25 +33,21 @@
     justify-self: center;
   }
 
-  .experiences-box{
-      flex-direction: column;
+  .experiences-box {
+    flex-direction: column;
   }
 
-  .experiences-title{
-      width: 100%;
-      padding-bottom: 50px;
+  .experiences-title {
+    width: 100%;
+    padding-bottom: 50px;
   }
 
   .experiences-description {
-      width: 100%;
+    width: 100%;
   }
 
-  .site-head {
+  .large-screen {
     display: none;
-  }
-
-  .site-head-sm {
-    position: absolute;
   }
 
   .navlist {
@@ -61,8 +55,14 @@
     justify-content: flex-start;
   }
 
+  ul li {
+      animation-name: fadeIn;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+  }
+
   .fadeIn {
-    margin-top: 80px;
+    margin-top: 30px;
     padding: 20px;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -70,9 +70,7 @@
   }
 
   .drop-menu {
-    display: block;
-    position: fixed;
-    top: 0px;
+    display: flex;
     height: 50px;
     width: 100%;
   }
@@ -80,6 +78,15 @@
   .drop-menu h1 {
     padding: 20px;
     padding-bottom: 0px;
+    font-size: 2.7rem;
+  }
+
+  .fa-angle-down {
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 20px;
   }
 
   .title {
@@ -87,32 +94,11 @@
     padding: 20px;
     padding-bottom: 0px;
   }
-}
 
-/* DROP DOWN MENU */
-
-@keyframes dropUp {
-  from {
-    height: 220px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 1);
-  }
-  to {
-    height: 50px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
+  .site-head-sm {
+    margin-top: 50px;
+    margin-right: 30px;
+    font-size: 2.5rem;
   }
 }
 
-@keyframes dropDown {
-  from {
-    height: 50px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0);
-  }
-  to {
-    height: 220px;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 1);
-  }
-}
