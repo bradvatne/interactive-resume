@@ -41,10 +41,10 @@ hr {
   animation-fill-mode: forwards;
 }
 
-/* p {
+p {
   animation-name: fadeIn;
   animation-duration: 1s;
-} */
+}
 
 .navlist{
   width: 100%;

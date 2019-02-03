@@ -5,18 +5,23 @@ export class Profile extends Component {
   render() {
     return (
       <div className="fadeIn">
-      <div className="header"><h1>PROFILE</h1><hr/></div>
+        <div className="header">
+          <h1>PROFILE</h1>
+          <hr />
+        </div>
         <div className="aboutme-boxes">
           <div className="aboutme-box1">
-            <h2>About me</h2><br/>
+            <h2>About me</h2>
+            <br />
             <p>
               I'm currently a student at the University of Victoria in beautiful
               British Columbia. I took a 6 year gap in the middle of my degree
               to work, save money, travel the world, and soul search. I learned
               alot about myself and was inspired to head back to school to
-              finish my degree. <br />In my spare time, I enjoy trying out new
-              restaurants with my girlfriend, reading, running, listening to
-              podcasts, and writing code of all sorts.
+              finish my degree. <br />
+              In my spare time, I enjoy trying out new restaurants with my
+              girlfriend, reading, running, listening to podcasts, and writing
+              code of all sorts.
             </p>
           </div>
           <div className="aboutme-box2">
