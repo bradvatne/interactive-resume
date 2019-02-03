@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/interactive-resume/static/js/runtime~main.ce3fb194.js"
   },
   {
-    "revision": "e451524948d11b21067c",
-    "url": "/interactive-resume/static/js/main.e4515249.chunk.js"
+    "revision": "fbbafe225d4eaef93b2f",
+    "url": "/interactive-resume/static/js/main.fbbafe22.chunk.js"
   },
   {
     "revision": "9166c6609fc463c4d141",
     "url": "/interactive-resume/static/js/1.9166c660.chunk.js"
   },
   {
-    "revision": "e451524948d11b21067c",
-    "url": "/interactive-resume/static/css/main.1ec054bb.chunk.css"
+    "revision": "fbbafe225d4eaef93b2f",
+    "url": "/interactive-resume/static/css/main.4f4e6f7f.chunk.css"
   },
   {
-    "revision": "8848277ec92e1d48ed4ed2d3436058b6",
+    "revision": "7e7526fde2ce1a0b0a55f90372c067ae",
     "url": "/interactive-resume/index.html"
   }
 ];
