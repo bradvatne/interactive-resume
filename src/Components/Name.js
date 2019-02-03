@@ -5,10 +5,10 @@ export class Name extends Component {
     return (
       <div className="intro fadeIn">
         <hr />
-        <h2>
+        <h3>
           WELCOME TO MY INTERACTIVE RESUME
           <br />
-        </h2>
+        </h3>
         <br />
         <p>
           I designed and built this site myself with HTML, CSS, and React.js.{" "}
