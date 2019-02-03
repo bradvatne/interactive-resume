@@ -3,11 +3,8 @@ import React, { Component } from "react";
 export class Name extends Component {
   render() {
     return (
-      <div>
-        <div className="fadeIn">
-          <hr />
-        </div>
         <div className="intro fadeIn">
+        <hr/>
           <h2>
             WELCOME TO MY INTERACTIVE RESUME
             <br />
@@ -28,7 +25,6 @@ export class Name extends Component {
           <hr/>
           <h3>Strava Feed</h3><br/>
           <p>//TODO</p>
-        </div>
       </div>
     );
   }

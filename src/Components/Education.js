@@ -10,8 +10,7 @@ export class Education extends Component {
         <div className="experiences-box">
           <div className="experiences-title">
             <p>
-              <strong>UNIVERSITY OF VICTORIA</strong>
-              <br />
+              <h3>UNIVERSITY OF VICTORIA</h3>
               <br />
               Sept 2009 - April 2011,
               <br />
@@ -20,10 +19,9 @@ export class Education extends Component {
           </div>
           <div className="experiences-description">
             <p>
-              <strong>
+              <h4>
                 BACHELOR OF SCIENCE - COMPUTER SCIENCE AND PSYCHOLOGY (COMBINED)
-              </strong>
-              <br />
+              </h4>
               <br />I studied general sciences in my first two years, including
               classes such as; calculus, physics, organic chemistry, biology and
               psychology. Feeling a lack of direction, I took a few years off

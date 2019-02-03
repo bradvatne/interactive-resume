@@ -125,7 +125,7 @@ p {
 }
 
 .overflow {
-  overflow: scroll;
+  overflow: hidden;;
   height: 400px;
   margin-bottom: 50px;
   padding-bottom: 50px;
@@ -156,6 +156,7 @@ p {
 .site-head {
   display: flex;
   padding: 50px;
+  padding-bottom: 0;
 }
 
 .site-head h1{
@@ -209,6 +210,7 @@ p {
   animation-duration: 1s;
   padding: 50px;
   padding-top: 0px;
+  overflow: scroll;
 
 }
 
