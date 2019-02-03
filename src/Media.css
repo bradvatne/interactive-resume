@@ -1,0 +1,122 @@
+@media screen and (max-width: 1025px) {
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    text-align: left;
+    overflow: scroll;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 0;
+    margin: 0;
+  }
+
+  .component {
+    padding: 0;
+    margin: 0;
+  }
+
+  .aboutme-boxes {
+    grid-template-columns: 1fr;
+    padding: 0;
+    margin: 0;
+  }
+
+  .aboutme-box2 {
+    justify-self: center;
+  }
+
+  .experiences-box {
+    flex-direction: column;
+  }
+
+  .experiences-title {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+
+  .experiences-description {
+    max-width: 100%;
+  }
+
+  .large-screen {
+    display: none;
+  }
+
+  .navlist {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  ul li {
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  .fadeIn {
+    margin-top: 30px;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    overflow: scroll;
+  }
+
+  .drop-menu {
+    display: flex;
+    height: 50px;
+    width: 100%;
+  }
+
+  .drop-menu h1 {
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 2rem;
+  }
+
+  .fa-angle-down {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+  }
+
+  .fa-angle-up {
+    font-size: 2rem;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+  }
+
+  .title {
+    display: block;
+    padding: 20px;
+    padding-bottom: 0px;
+  }
+
+  .site-head-sm {
+    margin-top: 50px;
+    margin-right: 30px;
+    font-size: 1.8rem;
+  }
+
+  .dropped {
+    margin-top: 30px;
+    font-size: 1rem;
+    margin-right: 30px;
+    display: inline-block;
+  }
+}

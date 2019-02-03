@@ -1,25 +1,24 @@
 import React, { Component } from 'react'
-
+//TODO: Add scroll indicator
 
 export class Employment extends Component {
     render() {
       return (
-        <div className="container">
         <div className="fadeIn">
-        <h1>EMPLOYMENT</h1><hr/><br/>
+        <hr/>
+        <h2>EMPLOYMENT</h2>
+        <hr/>
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
-                <strong>MOVEMENT FOOD</strong>
+                <h3>MOVEMENT FOOD</h3>
                 <br />
-                <br />
-                June 2016 - Sept 2017
+                <strong>June 2016 - Sept 2017</strong>
               </p>
             </div>
             <div className="experiences-description">
               <p>
-                <strong>DIGITAL MARKETER</strong>
-                <br />
+                <h4>DIGITAL MARKETER</h4>
                 <br />
                 Handled digital marketing for a local eCommerce website generating
                 over a million dollars yearly revenue. I handled the customer
@@ -36,16 +35,14 @@ export class Employment extends Component {
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
-                <strong>INDEPENDENT</strong>
+                <h3>INDEPENDENT</h3>
                 <br />
-                <br />
-                April 2016 - Sept 2017
+                <strong>April 2016 - Sept 2017</strong>
               </p>
             </div>
             <div className="experiences-description">
               <p>
-                <strong>FREELANCE DIGITAL MARKETER</strong>
-                <br />
+                <h4>FREELANCE DIGITAL MARKETER</h4>
                 <br />
                 Consulted a wide variety of eCommerce businesses with their
                 Facebook advertising optimization. My ability to work
@@ -58,16 +55,14 @@ export class Employment extends Component {
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
-                <strong>CITY OF VANCOUVER</strong>
+                <h3>CITY OF VANCOUVER</h3>
                 <br />
-                <br />
-                April 2013 - Jan 2017
+                <strong>April 2013 - Jan 2017</strong>
               </p>
             </div>
             <div className="experiences-description">
               <p>
-                <strong>TRUCK DRIVER</strong>
-                <br />
+                <h4>TRUCK DRIVER</h4>
                 <br />
                 Served the public as a recycling collector employed by the
                 municipal government. Developed a strict conscientious attitude
@@ -75,7 +70,7 @@ export class Employment extends Component {
               </p>
             </div>
           </div>
-        </div>
+          <hr/>
         </div>
       );
     }
