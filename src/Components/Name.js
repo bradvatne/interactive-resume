@@ -15,7 +15,7 @@ export class Name extends Component {
             <br />
             If you're a prospective employer, I'm honored and thankful that
             you're taking the time to view my work. <br />
-            This project has been an incredible learning experience and it my
+            This project has been an incredible learning experience and it is my
             absolute pleasure to share it with you!
             <br />
           </p>

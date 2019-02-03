@@ -7,17 +7,19 @@ export class SmallNav extends Component {
     super(props);
     this.state = {
       currentPage: "home",
-      expanded: false
     };
   }
+
 
   render() {
 
 
     console.log(this.props.test);
     var pageHandler = this.props.pageHandler;
+    
+
     return (
-      <div className="site-head-sm">
+      <div className="dropped">
           <ul className="navlist" id="navlist">
             <li className="right">
               <Link
@@ -87,9 +89,10 @@ export class SmallNav extends Component {
           </ul>
           </div>
     )
+    }
 
     
   }
-}
+
 
 export default SmallNav;

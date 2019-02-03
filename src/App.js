@@ -17,15 +17,23 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "/home"
+      currentPage: "/home",
+      dropdown: false
     };
     this.pageHandler = this.pageHandler.bind(this);
+    this.navHandler = this.navHandler.bind(this)
   }
 
   pageHandler(page, nextPage) {
     this.setState({
       currentPage: page,
       nextPage: nextPage
+    });
+  }
+
+  navHandler(dropdown) {
+    this.setState({
+      dropdown: !dropdown
     });
   }
 
@@ -37,8 +45,9 @@ class App extends Component {
             <Router>
               <div className="container">
                 <div>
-                  <Nav pageHandler={this.pageHandler} />
+                  <Nav pageHandler={this.pageHandler} navHandler={this.navHandler}/>
                 </div>
+                  {this.state.dropdown ? <SmallNav/> : null}
 
                 <Switch>
                   <Route exact path="/" component={Name} />
