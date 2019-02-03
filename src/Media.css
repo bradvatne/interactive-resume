@@ -43,7 +43,7 @@
   }
 
   .experiences-description {
-    width: 100%;
+    max-width: 100%;
   }
 
   .large-screen {
@@ -56,9 +56,9 @@
   }
 
   ul li {
-      animation-name: fadeIn;
-      animation-duration: 1s;
-      animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
   }
 
   .fadeIn {
@@ -91,7 +91,6 @@
     animation-duration: 1s;
   }
 
-
   .fa-angle-up {
     font-size: 4rem;
     color: white;
@@ -115,11 +114,9 @@
   }
 
   .dropped {
-      margin-top: 50px;
-      font-size: 1.8rem;
-      margin-right: 30px;
-      display: inline-block;
+    margin-top: 50px;
+    font-size: 1.8rem;
+    margin-right: 30px;
+    display: inline-block;
   }
-
 }
-

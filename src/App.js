@@ -21,7 +21,7 @@ class App extends Component {
       dropdown: false
     };
     this.pageHandler = this.pageHandler.bind(this);
-    this.navHandler = this.navHandler.bind(this)
+    this.navHandler = this.navHandler.bind(this);
   }
 
   pageHandler(page, nextPage) {
@@ -45,9 +45,14 @@ class App extends Component {
             <Router>
               <div className="container">
                 <div>
-                  <Nav pageHandler={this.pageHandler} navHandler={this.navHandler}/>
+                  <Nav
+                    pageHandler={this.pageHandler}
+                    navHandler={this.navHandler}
+                  />
                 </div>
-                  {this.state.dropdown ? <SmallNav/> : null}
+                {this.state.dropdown ? (
+                  <SmallNav pageHandler={this.pageHandler} navHandler={this.navHandler}/>
+                ) : null}
 
                 <Switch>
                   <Route exact path="/" component={Name} />

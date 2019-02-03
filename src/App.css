@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
 
 * {
   padding: 0;
   margin: 0;
-
 }
 
 html {
@@ -25,12 +24,10 @@ a {
   text-decoration: none;
 }
 
-
-
 h1 {
   font-size: 3rem;
   text-transform: uppercase;
-  text-shadow: 2px 2px 0px rgba(0,0,0,.2);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
 }
 
 h2 {
@@ -57,8 +54,7 @@ p {
   animation-duration: 1s;
 }
 
-
-.navlist{
+.navlist {
   width: 100%;
   top: 0px;
   list-style: none;
@@ -66,7 +62,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  bottom: 0px;;
+  bottom: 0px;
 }
 
 .navlist li {
@@ -84,7 +80,7 @@ p {
   color: rgba(255, 255, 255, 0.5);
 }
 
-.left{
+.left {
   text-align: left;
 }
 
@@ -98,7 +94,7 @@ p {
   flex-direction: column;
   text-align: center;
   overflow: hidden;
-  background-image: url('bg.jpeg');
+  background-image: url("bg.jpeg");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -109,7 +105,7 @@ p {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
   animation: fadeIn;
   animation-duration: 1s;
 }
@@ -125,7 +121,7 @@ p {
 }
 
 .overflow {
-  overflow: hidden;;
+  overflow: hidden;
   height: 400px;
   margin-bottom: 50px;
   padding-bottom: 50px;
@@ -146,7 +142,7 @@ p {
   text-align: left;
   overflow: scroll;
   margin: auto;
-  background-color: rgba(0,0,0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .title {
@@ -159,8 +155,7 @@ p {
   padding-bottom: 0;
 }
 
-
-.large-screen h1{
+.large-screen h1 {
   margin-bottom: 0;
   line-height: 1;
 }
@@ -176,7 +171,7 @@ p {
 
 .aboutme-boxes img {
   border-radius: 50%;
-  border: .2rem solid white;
+  border: 0.2rem solid white;
   margin: 20px;
 }
 
@@ -203,16 +198,15 @@ p {
   text-align: left;
   padding: 0;
   margin: 0;
-  max-width: 70%
+  max-width: 70%;
 }
 
-.fadeIn{
+.fadeIn {
   animation-name: fadeIn;
   animation-duration: 1s;
   padding: 50px;
   padding-top: 0px;
   overflow: scroll;
-
 }
 
 .dropped {
@@ -222,37 +216,42 @@ p {
 @keyframes fadeIn {
   from {
     opacity: 0;
-    transform: translateY(-10px);}
+    transform: translateY(-10px);
+  }
   to {
     opacity: 1;
-    transform: translateY(0);}
-} 
+    transform: translateY(0);
+  }
+}
 
 @keyframes fadeOut {
   from {
     opacity: 0;
-    transform: translateX(0px);}
+    transform: translateX(0px);
+  }
   to {
     opacity: 1;
-    transform: translateX(30px);}
+    transform: translateX(30px);
   }
-
+}
 
 @keyframes lineOut {
   from {
-    left:50%;
-    width:0%;
+    left: 50%;
+    width: 0%;
   }
   to {
-    left:5%;
-    width:90%;
+    left: 5%;
+    width: 90%;
   }
 }
 @keyframes slideIn {
   from {
     opacity: 0;
-    transform: translateX(-50px);}
+    transform: translateX(-50px);
+  }
   to {
     opacity: 1;
-    transform: translateX(0);}
-} 
+    transform: translateX(0);
+  }
+}

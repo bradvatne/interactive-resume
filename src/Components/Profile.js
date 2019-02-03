@@ -4,13 +4,11 @@ import App from "../App.js";
 
 export class Profile extends Component {
   render() {
-
-
     return (
       <div className="fadeIn">
-               <hr/>
+        <hr />
         <h2>PROFILE</h2>
-        <hr/>
+        <hr />
         <div className="aboutme-boxes">
           <div className="aboutme-box1">
             <br />

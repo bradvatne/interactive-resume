@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import SmallNav from './SmallNav.js'
+import SmallNav from "./SmallNav.js";
 
 export class Nav extends Component {
   constructor(props) {
@@ -12,16 +12,16 @@ export class Nav extends Component {
   }
 
   doHandle() {
-    this.props.navHandler(this.state.dropdown)
+    this.props.navHandler(this.state.dropdown);
     this.setState({
       dropdown: !this.state.dropdown
-    })
+    });
   }
 
   render() {
     var pageHandler = this.props.pageHandler;
-    var navHandler = this.props.navHandler;
 
+    
     return (
       <div className="site-head">
         <div className="drop-menu">
@@ -33,8 +33,12 @@ export class Nav extends Component {
           >
             <h1>BRAD VATNE</h1>
           </Link>
-          <button onClick={() => this.doHandle() }>
-          {this.state.dropdown ?  <i className="fas fa-angle-up" /> :  <i className="fas fa-angle-down" />}
+          <button onClick={() => this.doHandle()}>
+            {this.state.dropdown ? (
+              <i className="fas fa-angle-up" />
+            ) : (
+              <i className="fas fa-angle-down" />
+            )}
           </button>
         </div>
         <div className="large-screen">
