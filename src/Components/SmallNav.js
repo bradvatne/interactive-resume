@@ -2,19 +2,25 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 
-export class Nav extends Component {
+export class SmallNav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "home"
+      currentPage: "home",
+      expanded: false
     };
   }
 
   render() {
+
+    let expanded = this.state.expanded;
+    let visible = '';
+    expanded ? visible = 'show' : visible = '';
+
     console.log(this.props.test);
     var pageHandler = this.props.pageHandler;
     return (
-      <div className="site-head">
+      <div className="site-head-sm">
           <ul className="navlist" id="navlist">
             <li className="right">
               <Link
@@ -23,7 +29,7 @@ export class Nav extends Component {
                 to={"/"}
                 onClick={() => pageHandler("/home")}
               >
-                <h1>BRAD VATNE</h1>
+                HOME
               </Link>
             </li>
             <li className="right">
@@ -89,4 +95,4 @@ export class Nav extends Component {
   }
 }
 
-export default Nav;
+export default SmallNav;

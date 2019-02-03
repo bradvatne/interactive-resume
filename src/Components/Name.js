@@ -4,8 +4,7 @@ export class Name extends Component {
   render() {
     return (
       <div>
-        <div className="header fadeIn">
-          <h1>BRAD VATNE</h1>
+        <div className="fadeIn">
           <hr />
         </div>
         <div className="intro fadeIn">

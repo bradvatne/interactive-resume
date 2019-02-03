@@ -5,6 +5,9 @@ export class Employment extends Component {
     render() {
       return (
         <div className="fadeIn">
+        <hr/>
+        <h2>EMPLOYMENT</h2>
+        <hr/>
           <div className="experiences-box">
             <div className="experiences-title">
               <p>
@@ -73,6 +76,7 @@ export class Employment extends Component {
               </p>
             </div>
           </div>
+          <hr/>
         </div>
       );
     }

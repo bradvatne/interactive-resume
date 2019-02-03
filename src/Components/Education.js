@@ -4,6 +4,9 @@ export class Education extends Component {
   render() {
     return (
       <div className="fadeIn">
+        <hr/>
+        <h2>EDUCATION</h2>
+        <hr/>
         <div className="experiences-box">
           <div className="experiences-title">
             <p>

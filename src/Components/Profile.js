@@ -1,17 +1,18 @@
 import React, { Component } from "react";
 import Portrait from "./brad.jpg";
+import App from "../App.js";
 
 export class Profile extends Component {
   render() {
+
+
     return (
       <div className="fadeIn">
-        <div className="header">
-          <h1>PROFILE</h1>
-          <hr />
-        </div>
+               <hr/>
+        <h2>PROFILE</h2>
+        <hr/>
         <div className="aboutme-boxes">
           <div className="aboutme-box1">
-            <h2>About me</h2>
             <br />
             <p>
               I'm currently a student at the University of Victoria in beautiful
@@ -57,5 +58,4 @@ export class Profile extends Component {
     );
   }
 }
-
 export default Profile;
