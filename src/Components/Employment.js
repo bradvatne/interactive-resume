@@ -13,7 +13,7 @@ export class Employment extends Component {
               <p>
                 <h3>MOVEMENT FOOD</h3>
                 <br />
-                <strong>June 2016 - Sept 2017</strong>
+                <strong>Jan 2017 - June 2018</strong>
               </p>
             </div>
             <div className="experiences-description">
@@ -37,7 +37,7 @@ export class Employment extends Component {
               <p>
                 <h3>INDEPENDENT</h3>
                 <br />
-                <strong>April 2016 - Sept 2017</strong>
+                <strong>SPORADICALLY</strong>
               </p>
             </div>
             <div className="experiences-description">
@@ -57,7 +57,7 @@ export class Employment extends Component {
               <p>
                 <h3>CITY OF VANCOUVER</h3>
                 <br />
-                <strong>April 2013 - Jan 2017</strong>
+                <strong>April 2014 - Jan 2017</strong>
               </p>
             </div>
             <div className="experiences-description">
