@@ -227,6 +227,23 @@ p {
   justify-content: space-evenly;
 }
 
+td, th{
+  padding: 20px;
+}
+
+th{
+  padding-bottom: 0;
+}
+
+.abilities-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.abilities-container hr{
+  display: none;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;

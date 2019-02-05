@@ -113,10 +113,23 @@
     font-size: 1.8rem;
   }
 
+  .site-head {
+    margin-bottom: 5px;
+  }
+
   .dropped {
     margin-top: 30px;
     font-size: 1rem;
     margin-right: 30px;
     display: inline-block;
+  }
+  .abilities-container {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .abilities-container hr{
+    display: flex;
+    
   }
 }
