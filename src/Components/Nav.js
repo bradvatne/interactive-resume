@@ -11,6 +11,8 @@ export class Nav extends Component {
     };
   }
 
+
+  //Drop down menu handler
   doHandle() {
     this.props.navHandler(this.state.dropdown);
     this.setState({
@@ -21,6 +23,7 @@ export class Nav extends Component {
   render() {
     var pageHandler = this.props.pageHandler;
 
+    
     
     return (
       <div className="site-head">

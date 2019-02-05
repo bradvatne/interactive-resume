@@ -22,6 +22,12 @@ button {
 }
 a {
   text-decoration: none;
+  color: white;
+}
+
+
+i:hover {
+  opacity: .5;
 }
 
 h1 {
@@ -45,7 +51,7 @@ hr {
   margin-left: 0px;
   margin-right: 0px;
   animation-name: lineOut;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
@@ -211,6 +217,14 @@ p {
 
 .dropped {
   display: none;
+}
+
+.contact-boxes {
+  display: flex;
+  font-size: 4rem;
+  color: white;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 @keyframes fadeIn {

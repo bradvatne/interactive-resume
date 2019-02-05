@@ -56,6 +56,7 @@ class App extends Component {
 
                 <Switch>
                   <Route exact path="/" component={Name} />
+                  <Route exact path="/interactive-resume" component={Name} />
                   <Route path="/menu" component={SmallNav} />
                   <Route path="/profile" component={Profile} />
                   <Route path="/education" component={Education} />
