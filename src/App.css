@@ -146,7 +146,7 @@ p {
   align-content: center;
   flex-direction: column;
   text-align: left;
-  overflow: scroll;
+  overflow: hidden;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.4);
 }
@@ -214,6 +214,9 @@ p {
   padding-top: 0px;
   overflow: scroll;
 }
+.fadeIn::-webkit-scrollbar {
+  display: none;
+}
 
 .dropped {
   display: none;
@@ -234,6 +237,8 @@ td, th{
 th{
   padding-bottom: 0;
 }
+
+
 
 .abilities-container {
   display: grid;

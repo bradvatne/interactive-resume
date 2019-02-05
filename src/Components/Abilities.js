@@ -6,7 +6,7 @@ export class Abilities extends Component {
     return (
 
       <div className="fadeIn">
-      
+
         <hr />
         <h2>ABILITIES</h2>
         <hr/>
