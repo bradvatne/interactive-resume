@@ -224,7 +224,7 @@ p {
 
 .contact-boxes {
   display: flex;
-  font-size: 4rem;
+  font-size: 3rem;
   color: white;
   flex-direction: row;
   justify-content: space-evenly;

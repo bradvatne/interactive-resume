@@ -6,21 +6,27 @@ export class SmallNav extends Component {
     super(props);
     this.state = {
       currentPage: "home",
-      dropdown: false
+      dropdown: props.dropdown
     };
   }
 
-//   doHandle(page) {
-//     this.setState({
-//         dropdown: !this.state.dropdown
-//       })
-//     this.props.navHandler(this.state.dropdown)
-//     if (page !== undefined) {this.props.pageHandler(page) }
-//   }
+
+  doHandle(page) {
+    console.log('smallnav before state' + this.state.dropdown)
+    
+    //
+    this.setState({
+        dropdown: !this.state.dropdown
+      })
+      console.log('smallnave after state' + this.state.dropdown)
+    this.props.navHandler(this.state.dropdown)
+    if (page !== undefined) {this.props.pageHandler(page) }
+  }
 
   render() {
-    console.log(this.props.test);
+    console.log(this.props.dropdown);
     var pageHandler = this.props.pageHandler;
+
 
     return (
       <div className="dropped">
@@ -30,7 +36,7 @@ export class SmallNav extends Component {
               id="home"
               className="link"
               to={"/"}
-              onClick={() => pageHandler("/home")}
+              onClick={() => this.doHandle("/home")}
             >
               HOME
             </Link>
@@ -40,7 +46,7 @@ export class SmallNav extends Component {
               id="profile"
               className="link"
               to={"/profile"}
-              onClick={() => pageHandler("/profile")}
+              onClick={() => this.doHandle("/profile")}
             >
               PROFILE
             </Link>
@@ -49,7 +55,7 @@ export class SmallNav extends Component {
             <Link
               className="link"
               to={"/education"}
-              onClick={() => pageHandler("/education")}
+              onClick={() => this.doHandle("/education")}
             >
               EDUCATION
             </Link>
@@ -58,25 +64,25 @@ export class SmallNav extends Component {
             <Link
               className="link"
               to={"/employment"}
-              onClick={() => pageHandler("/employment")}
+              onClick={() => this.doHandle("/employment")}
             >
               EMPLOYMENT
             </Link>
           </li>
           <li className="right">
-            <Link
+            {/* <Link
               className="link"
               to={"/abilities"}
-              onClick={() => pageHandler("/abilities")}
+              onClick={() => this.doHandle("/abilities")}
             >
               ABILITIES
-            </Link>
+            </Link> */}
           </li>
           <li className="right">
             <Link
               className="link"
               to={"/projects"}
-              onClick={() => pageHandler("/projects")}
+              onClick={() => this.doHandle("/projects")}
             >
               PROJECTS
             </Link>
@@ -85,7 +91,7 @@ export class SmallNav extends Component {
             <Link
               className="link"
               to={"/contact"}
-              onClick={() => pageHandler("/contact")}
+              onClick={() => this.doHandle("/contact")}
             >
               CONTACT
             </Link>

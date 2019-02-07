@@ -35,9 +35,11 @@ class App extends Component {
     this.setState({
       dropdown: !dropdown
     });
+    console.log('app state:' + this.state.dropdown)
   }
 
   render() {
+    console.log(this.state.dropdown)
     return (
       <div className="app">
         <div className="layer">
@@ -48,10 +50,11 @@ class App extends Component {
                   <Nav
                     pageHandler={this.pageHandler}
                     navHandler={this.navHandler}
+                    dropdown = {this.state.dropdown}
                   />
                 </div>
                 {this.state.dropdown ? (
-                  <SmallNav pageHandler={this.pageHandler} navHandler={this.navHandler}/>
+                  <SmallNav pageHandler={this.pageHandler} navHandler={this.navHandler} dropdown={this.state.dropdown}/>
                 ) : null}
 
                 <Switch>
@@ -62,7 +65,7 @@ class App extends Component {
                   <Route path="/education" component={Education} />
                   <Route path="/employment" component={Employment} />
                   <Route path="/abilities" component={Abilities} />
-                  <Route path="/projects" component={Projects} />
+                  {/* <Route path="/projects" component={Projects} /> */}
                   <Route path="/contact" component={Contact} />
                 </Switch>
               </div>

@@ -7,20 +7,28 @@ export class Nav extends Component {
     super(props);
     this.state = {
       currentPage: "home",
-      dropdown: false
+      dropdown: this.props.dropdown
     };
+    
   }
 
 
+  
   //Drop down menu handler
   doHandle() {
+    //Inherits navHandler from App, runs w/ dropdown state as argument
     this.props.navHandler(this.state.dropdown);
+    //Sets state within Nav to be the opposite of it's current state (toggles)
     this.setState({
       dropdown: !this.state.dropdown
     });
+    console.log('nav state' + this.dropdown)
   }
 
   render() {
+    console.log('hellloooo' + this.props.dropdown);
+    console.log('hellloooo' + this.state.dropdown);
+    //Inherits pagehandler from App, used to manage state of page
     var pageHandler = this.props.pageHandler;
 
     
@@ -94,13 +102,13 @@ export class Nav extends Component {
               </Link>
             </li>
             <li className="right">
-              <Link
+              {/* <Link
                 className="link"
                 to={"/projects"}
                 onClick={() => pageHandler("/projects")}
               >
                 PROJECTS
-              </Link>
+              </Link> */}
             </li>
             <li className="right">
               <Link

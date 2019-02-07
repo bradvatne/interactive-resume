@@ -22,11 +22,11 @@ export class Name extends Component {
         <hr />
         <h3>Github Feed</h3>
         <br />
-        <p>//TODO</p>
+        <p>Coming soon...</p>
         <hr />
         <h3>Strava Feed</h3>
         <br />
-        <p>//TODO</p>
+        <p>Coming soon...</p>
       </div>
     );
   }
