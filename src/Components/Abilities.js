@@ -18,11 +18,11 @@ export class Abilities extends Component {
         </tr>
         <tr>
         <td>HTML</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
         </tr>
         <tr>
         <td>CSS</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half" aria-hidden="true"></i></td>
         </tr>
         <tr>
         <td>Javascript</td>
@@ -34,7 +34,7 @@ export class Abilities extends Component {
         </tr>
         <tr>
         <td>Python</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half" aria-hidden="true"></i></td>
+        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-half" aria-hidden="true"></i></td>
         </tr>
         <tr>
         <td>Java</td>
@@ -44,32 +44,32 @@ export class Abilities extends Component {
         <hr/>
         <table>
         <tr>
-          <th><h3>SKILLS</h3></th>
-          <th><h3>LEVEL</h3></th>
+          <th><h3>GENERAL TRAITS</h3></th>
+          <th> </th>
         </tr>
         <tr>
-        <td>Github + Git</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Passionate</td>
+        <td>Motivated</td>
         </tr>
         <tr>
-        <td>Problem Solving</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Problem Solver</td>
+        <td>Team Player</td>
         </tr>
         <tr>
-        <td>Communication</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Communicative</td>
+        <td>Honest</td>
         </tr>
         <tr>
-        <td>Resourcefulness</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Resourceful</td>
+        <td>Conscientious</td>
         </tr>
         <tr>
-        <td>Sociability</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Sociable</td>
+        <td>Respectful</td>
         </tr>
         <tr>
-        <td>UI Design</td>
-        <td><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></td>
+        <td>Resilient</td>
+        <td>Positive Attitude</td>
         </tr>
         </table>
       </div>
