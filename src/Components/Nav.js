@@ -101,7 +101,7 @@ export class Nav extends Component {
                 ABILITIES
               </Link>
             </li>
-            <li className="right">
+            {/* <li className="right"> */}
               {/* <Link
                 className="link"
                 to={"/projects"}
@@ -109,7 +109,7 @@ export class Nav extends Component {
               >
                 PROJECTS
               </Link> */}
-            </li>
+            {/* </li> */}
             <li className="right">
               <Link
                 className="link"
