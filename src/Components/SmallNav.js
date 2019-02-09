@@ -1,38 +1,31 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
-export class SmallNav extends Component {
+class SmallNav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "home",
-      dropdown: props.dropdown
     };
   }
 
-
   //This doHandle function sets state for SmallNav,
-  //and runs navHandler (inherited from App) to update App state
+  //and runs toggleDropdown (inherited from App) to update App state
   doHandle(page) {
-    // console.log('smallnav before state' + this.state.dropdown)
-    this.setState({
-      dropdown: !this.state.dropdown
-    });
-    //console.log('smallnave after state' + this.state.dropdown)
-    this.props.navHandler(this.state.dropdown);
+    
+    this.props.toggleDropdown();
     if (page !== undefined) {
       this.props.pageHandler(page);
     }
   }
 
   render() {
-    //console.log(this.props.dropdown);
+
 
     return (
       <div className="dropped">
         <ul className="navlist" id="navlist">
           <li className="right">
-            <Link
+          <Link
               id="home"
               className="link"
               to={"/"}
@@ -78,15 +71,6 @@ export class SmallNav extends Component {
               ABILITIES
             </Link>
           </li>
-          {/* <li className="right">
-            <Link
-              className="link"
-              to={"/projects"}
-              onClick={() => this.doHandle("/projects")}
-            >
-              PROJECTS
-            </Link>
-          </li> */}
           <li className="right">
             <Link
               className="link"

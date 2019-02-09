@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Portrait from "./brad.jpg";
-import App from "../App.js";
 
 export class Profile extends Component {
   render() {

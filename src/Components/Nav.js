@@ -1,34 +1,22 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import SmallNav from "./SmallNav.js";
+import { Link } from "react-router-dom";
 
 export class Nav extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      currentPage: "home",
-      dropdown: this.props.dropdown
     };
     
   }
 
-
-  
-  //Drop down menu handler
   doHandle() {
-    //Inherits navHandler from App, runs w/ dropdown state as argument
-    this.props.navHandler(this.state.dropdown);
-    //Sets state within Nav to be the opposite of it's current state (toggles)
-    this.setState({
-      dropdown: !this.state.dropdown
-    });
-    console.log('nav state' + this.dropdown)
+    this.props.toggleDropdown();
   }
 
   render() {
-    console.log('hellloooo' + this.props.dropdown);
-    console.log('hellloooo' + this.state.dropdown);
+
     //Inherits pagehandler from App, used to manage state of page
+    //Pagehundler is currently not in use, plans for future implementation
     var pageHandler = this.props.pageHandler;
 
     
@@ -45,7 +33,7 @@ export class Nav extends Component {
             <h1>BRAD VATNE</h1>
           </Link>
           <button onClick={() => this.doHandle()}>
-            {this.state.dropdown ? (
+            {this.props.dropdown ? (
               <i className="fas fa-angle-up" />
             ) : (
               <i className="fas fa-angle-down" />

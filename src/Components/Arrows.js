@@ -1,3 +1,6 @@
+//THIS COMPONENT IS CURRENTLY UN-USED
+//I may implement it in the future
+
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 

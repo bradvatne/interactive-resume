@@ -44,32 +44,32 @@ export class Abilities extends Component {
         <hr/>
         <table>
         <tr>
-          <th><h3>GENERAL TRAITS</h3></th>
+          <th><h3>TOOLS/CONCEPTS</h3></th>
           <th> </th>
         </tr>
         <tr>
-        <td>Passionate</td>
-        <td>Motivated</td>
+        <td>Github/Git</td>
+        <td>AJAX</td>
         </tr>
         <tr>
-        <td>Problem Solver</td>
-        <td>Team Player</td>
+        <td>Promises</td>
+        <td>API's</td>
         </tr>
         <tr>
-        <td>Communicative</td>
-        <td>Honest</td>
+        <td>Babel</td>
+        <td>NPM</td>
         </tr>
         <tr>
-        <td>Resourceful</td>
-        <td>Conscientious</td>
+        <td>Component Lifecycle</td>
+        <td>Node.js</td>
         </tr>
         <tr>
-        <td>Sociable</td>
-        <td>Respectful</td>
+        <td>Axios</td>
+        <td>Flexbox/Grid</td>
         </tr>
         <tr>
-        <td>Resilient</td>
-        <td>Positive Attitude</td>
+        <td>Functional Programs</td>
+        <td>OOP's</td>
         </tr>
         </table>
       </div>

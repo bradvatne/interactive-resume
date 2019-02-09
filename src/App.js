@@ -2,12 +2,10 @@ import React, { Component } from "react";
 import "./App.css";
 import "./Media.css";
 import Nav from "./Components/Nav.js";
-import Arrows from "./Components/Arrows.js";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from "./Components/Profile.js";
 import Education from "./Components/Education.js";
 import Employment from "./Components/Employment.js";
-import Projects from "./Components/Projects.js";
 import Contact from "./Components/Contact.js";
 import Abilities from "./Components/Abilities.js";
 import Name from "./Components/Name.js";
@@ -20,26 +18,25 @@ class App extends Component {
       currentPage: "/home",
       dropdown: false
     };
-    this.pageHandler = this.pageHandler.bind(this);
-    this.navHandler = this.navHandler.bind(this);
   }
 
-  pageHandler(page, nextPage) {
+  //State update function, was planning to implement a next page/previous page feature
+  pageHandler = (page, nextPage) => {
     this.setState({
       currentPage: page,
       nextPage: nextPage
     });
   }
 
-  navHandler(dropdown) {
+
+  // State handler for status of the dropdown menu
+  toggleDropdown = () => {
     this.setState({
-      dropdown: !dropdown
+      dropdown: !this.state.dropdown
     });
-    console.log('app state:' + this.state.dropdown)
   }
 
   render() {
-    console.log(this.state.dropdown)
     return (
       <div className="app">
         <div className="layer">
@@ -49,12 +46,17 @@ class App extends Component {
                 <div>
                   <Nav
                     pageHandler={this.pageHandler}
-                    navHandler={this.navHandler}
-                    dropdown = {this.state.dropdown}
+                    toggleDropdown={this.toggleDropdown}
+                    dropdown={this.state.dropdown}
                   />
                 </div>
+
                 {this.state.dropdown ? (
-                  <SmallNav pageHandler={this.pageHandler} navHandler={this.navHandler} dropdown={this.state.dropdown}/>
+                  <SmallNav
+                    pageHandler={this.pageHandler}
+                    toggleDropdown={this.toggleDropdown}
+                    dropdown={this.state.dropdown}
+                  />
                 ) : null}
 
                 <Switch>
@@ -65,7 +67,6 @@ class App extends Component {
                   <Route path="/education" component={Education} />
                   <Route path="/employment" component={Employment} />
                   <Route path="/abilities" component={Abilities} />
-                  {/* <Route path="/projects" component={Projects} /> */}
                   <Route path="/contact" component={Contact} />
                 </Switch>
               </div>
