@@ -1,4 +1,4 @@
-<h1>Interactive Resume Website Built With React.js</h1>
+<h1>Interactive Resume Website by Brad Vatne</h1>
 
 <h2>Still Under Construction</h2>
 
