@@ -33,31 +33,51 @@ export class Education extends Component {
         </div>
         <hr />
         <h2>ONLINE COURSES</h2>
-        <hr/>
+        <hr />
         <div className="experiences-box">
           <div className="experiences-title">
-          <h3>FreeCodeCamp</h3>
-          <br/>
-          <a
-            href="https://www.freecodecamp.org/certification/scradley/responsive-web-design"
-            target="_blank"
-          ><i class="fas fa-award" style={{fontSize: "3rem"}}></i></a>
-           
+            <h3>FreeCodeCamp</h3>
+            <br />
+            <a
+              href="https://www.freecodecamp.org/certification/scradley/responsive-web-design"
+              target="_blank"
+            >
+              <i class="fas fa-award" style={{ fontSize: "3rem" }} />
+            </a>
           </div>
           <div className="experiences-description">
             <p>
-              <h4>
-                RESPONSIVE WEB DESIGN
-              </h4>
-              <br />Basic HTML and HTML5, CSS, Applied Visual Design, Applied Accesibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects.<br />
-        
+              <h4>RESPONSIVE WEB DESIGN</h4>
+              <br />
+              Basic HTML and HTML5, CSS, Applied Visual Design, Applied
+              Accesibility, Responsive Web Design Principles, CSS Flexbox, CSS
+              Grid, Responsive Web Design Projects.
+              <br />
             </p>
           </div>
         </div>
-
-        
-        <hr/>
-     
+        <hr />
+        <div className="experiences-box">
+          <div className="experiences-title">
+            <h3>TYLERMCGINNIS.COM</h3>
+            <br />
+            <a
+              href="https://tylermcginnis.com/courses/react-fundamentals/"
+              target="_blank"
+            >
+              <i class="fas fa-award" style={{ fontSize: "3rem" }} />
+            </a>
+          </div>
+          <div className="experiences-description">
+            <p>
+              <h4>REACT FUNDAMENTALS</h4>
+              <br />
+              NPM, Webpack4, Babel, Proptypes, Props and State Management, Stateless Functional Components, Component Life Cycle + AJAX, Axios, Promises, API's
+              <br />
+            </p>
+          </div>
+        </div>
+        <hr />
       </div>
     );
   }

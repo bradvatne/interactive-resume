@@ -11,22 +11,22 @@ export class SmallNav extends Component {
   }
 
 
+  //This doHandle function sets state for SmallNav,
+  //and runs navHandler (inherited from App) to update App state
   doHandle(page) {
-    console.log('smallnav before state' + this.state.dropdown)
-    
-    //
+    // console.log('smallnav before state' + this.state.dropdown)
     this.setState({
-        dropdown: !this.state.dropdown
-      })
-      console.log('smallnave after state' + this.state.dropdown)
-    this.props.navHandler(this.state.dropdown)
-    if (page !== undefined) {this.props.pageHandler(page) }
+      dropdown: !this.state.dropdown
+    });
+    //console.log('smallnave after state' + this.state.dropdown)
+    this.props.navHandler(this.state.dropdown);
+    if (page !== undefined) {
+      this.props.pageHandler(page);
+    }
   }
 
   render() {
-    console.log(this.props.dropdown);
-    var pageHandler = this.props.pageHandler;
-
+    //console.log(this.props.dropdown);
 
     return (
       <div className="dropped">
@@ -70,15 +70,15 @@ export class SmallNav extends Component {
             </Link>
           </li>
           <li className="right">
-            {/* <Link
+            <Link
               className="link"
               to={"/abilities"}
               onClick={() => this.doHandle("/abilities")}
             >
               ABILITIES
-            </Link> */}
+            </Link>
           </li>
-          <li className="right">
+          {/* <li className="right">
             <Link
               className="link"
               to={"/projects"}
@@ -86,7 +86,7 @@ export class SmallNav extends Component {
             >
               PROJECTS
             </Link>
-          </li>
+          </li> */}
           <li className="right">
             <Link
               className="link"
