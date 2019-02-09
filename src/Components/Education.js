@@ -29,7 +29,7 @@ export class Education extends Component {
               psychology. Feeling a lack of direction, I took a few years off
               before returning enthusiastically to pursue a combined major of
               Computer Science and Psychology. <br />
-              The GPA of courses taken since my return is currently 3.8 .
+              The GPA of courses taken since my return is currently 3.8 (On a 4 point scale).
             </p>
           </div>
         </div>
