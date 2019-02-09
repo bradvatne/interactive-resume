@@ -47,7 +47,7 @@ h3 {
 }
 
 hr {
-  margin: 30px;
+  margin: 20px;
   margin-left: 0px;
   margin-right: 0px;
   animation-name: lineOut;
@@ -117,7 +117,7 @@ p {
 }
 
 .active {
-  font-size: 3rem;
+  opacity: .5;
 }
 
 .heading {

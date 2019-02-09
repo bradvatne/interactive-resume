@@ -5,7 +5,7 @@ export class Education extends Component {
     return (
       <div className="fadeIn">
         <hr />
-        <h2>FORMAL EDUCATION</h2>
+        <h2>EDUCATION</h2>
         <hr />
         <div className="experiences-box">
           <div className="experiences-title">
@@ -33,9 +33,7 @@ export class Education extends Component {
             </p>
           </div>
         </div>
-        <hr />
-        <h2>ONLINE COURSES</h2>
-        <hr />
+        <hr/>
         <div className="experiences-box">
           <div className="experiences-title">
             <h3>FreeCodeCamp</h3>

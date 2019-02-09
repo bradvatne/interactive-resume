@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export class Nav extends Component {
   constructor(props) {
@@ -53,41 +53,41 @@ export class Nav extends Component {
               </Link>
             </li>
             <li className="right">
-              <Link
+              <NavLink
                 id="profile"
                 className="link"
                 to={"/profile"}
                 onClick={() => pageHandler("/profile")}
               >
                 PROFILE
-              </Link>
+              </NavLink>
             </li>
             <li className="right">
-              <Link
+              <NavLink
                 className="link"
                 to={"/education"}
                 onClick={() => pageHandler("/education")}
               >
                 EDUCATION
-              </Link>
+              </NavLink>
             </li>
             <li className="right">
-              <Link
+              <NavLink
                 className="link"
                 to={"/employment"}
                 onClick={() => pageHandler("/employment")}
               >
                 EMPLOYMENT
-              </Link>
+              </NavLink>
             </li>
             <li className="right">
-              <Link
+              <NavLink
                 className="link"
                 to={"/abilities"}
                 onClick={() => pageHandler("/abilities")}
               >
                 ABILITIES
-              </Link>
+              </NavLink>
             </li>
             {/* <li className="right"> */}
               {/* <Link
@@ -99,13 +99,13 @@ export class Nav extends Component {
               </Link> */}
             {/* </li> */}
             <li className="right">
-              <Link
+              <NavLink
                 className="link"
                 to={"/contact"}
                 onClick={() => pageHandler("/contact")}
               >
                 CONTACT
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </div>
