@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Github from "./Github.js";
 
 export class Name extends Component {
   render() {
@@ -22,7 +23,7 @@ export class Name extends Component {
         <hr />
         <h3>Github Feed</h3>
         <br />
-        <p>Coming soon...</p>
+        <Github />
         <hr />
         <h3>Strava Feed</h3>
         <br />

@@ -11,6 +11,7 @@ import Abilities from "./Components/Abilities.js";
 import Name from "./Components/Name.js";
 import SmallNav from "./Components/SmallNav.js";
 
+
 class App extends Component {
   constructor(props) {
     super(props);
