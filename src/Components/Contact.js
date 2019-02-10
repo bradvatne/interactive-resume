@@ -3,7 +3,7 @@ import React, { Component } from "react";
 export class Contact extends Component {
   render() {
     return (
-      <div className="fadeIn">
+      <div className="fadeIn" id="fadeIn">
         <hr />
         <div className="contact-boxes">
           <a href="mailto:bradvatne@gmail.com">

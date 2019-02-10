@@ -1,17 +1,53 @@
 import React, { Component } from "react";
 
 export class Education extends Component {
+  constructor(props) {
+    super(props);
+      this.educationRef = React.createRef()
+    };
+  
+
+
+
+
+  
+
   render() {
+
+    
+  
+
+    
+
     return (
-      <div className="fadeIn">
+
+      <div className="fadeIn" id ="fadeIn" onScroll={ () => {
+        let nav = document.getElementById("navigation");
+        let box = document.getElementById("fadeIn");
+
+        if (box.scrollTop > 50 && !nav.classList.contains("hidenav")) {
+        nav.classList.add("hidenav");
+        if (nav.classList.contains("shownav")) {
+          nav.classList.remove("shownav");
+        }
+      } else if (box.scrollTop < 50 && nav.classList.contains("hidenav")) {
+        if (nav.classList.contains("hidenav")) {
+          nav.classList.remove("hidenav");
+        }
+        nav.classList.add("shownav");
+      }
+
+
+
+      }}>
+
         <hr />
         <h2>EDUCATION</h2>
         <hr />
         <div className="experiences-box">
           <div className="experiences-title">
-            
-              <h3>UNIVERSITY OF VICTORIA</h3>
-              <p>
+            <h3>UNIVERSITY OF VICTORIA</h3>
+            <p>
               <br />
               Sept 2009 - April 2011,
               <br />
@@ -19,21 +55,21 @@ export class Education extends Component {
             </p>
           </div>
           <div className="experiences-description">
-           
-              <h4>
-                BACHELOR OF SCIENCE - COMPUTER SCIENCE AND PSYCHOLOGY (COMBINED)
-              </h4>
-              <p>
+            <h4>
+              BACHELOR OF SCIENCE - COMPUTER SCIENCE AND PSYCHOLOGY (COMBINED)
+            </h4>
+            <p>
               <br />I studied general sciences in my first two years, including
               classes such as; calculus, physics, organic chemistry, biology and
               psychology. Feeling a lack of direction, I took a few years off
               before returning enthusiastically to pursue a combined major of
               Computer Science and Psychology. <br />
-              The GPA of courses taken since my return is currently 3.8 (On a 4 point scale).
+              The GPA of courses taken since my return is currently 3.8 (On a 4
+              point scale).
             </p>
           </div>
         </div>
-        <hr/>
+        <hr />
         <div className="experiences-box">
           <div className="experiences-title">
             <h3>FreeCodeCamp</h3>
@@ -47,9 +83,8 @@ export class Education extends Component {
             </a>
           </div>
           <div className="experiences-description">
-            
-              <h4>RESPONSIVE WEB DESIGN</h4>
-              <p>
+            <h4>RESPONSIVE WEB DESIGN</h4>
+            <p>
               <br />
               Basic HTML and HTML5, CSS, Applied Visual Design, Applied
               Accesibility, Responsive Web Design Principles, CSS Flexbox, CSS
@@ -72,10 +107,12 @@ export class Education extends Component {
             </a>
           </div>
           <div className="experiences-description">
-              <h4>REACT FUNDAMENTALS</h4>
-              <p>
+            <h4>REACT FUNDAMENTALS</h4>
+            <p>
               <br />
-              NPM, Webpack4, Babel, Proptypes, Props and State Management, Stateless Functional Components, Component Life Cycle + AJAX, Axios, Promises, API's
+              NPM, Webpack4, Babel, Proptypes, Props and State Management,
+              Stateless Functional Components, Component Life Cycle + AJAX,
+              Axios, Promises, API's
               <br />
             </p>
           </div>

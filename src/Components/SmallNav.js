@@ -8,6 +8,8 @@ class SmallNav extends Component {
     };
   }
 
+
+
   //This doHandle function sets state for SmallNav,
   //and runs toggleDropdown (inherited from App) to update App state
   doHandle(page) {

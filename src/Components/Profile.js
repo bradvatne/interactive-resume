@@ -4,7 +4,7 @@ import Portrait from "./brad.jpg";
 export class Profile extends Component {
   render() {
     return (
-      <div className="fadeIn">
+      <div className="fadeIn" id="fadeIn">
         <hr />
         <h2>PROFILE</h2>
         <hr />

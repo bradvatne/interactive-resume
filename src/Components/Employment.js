@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 export class Employment extends Component {
     render() {
       return (
-        <div className="fadeIn">
+        <div className="fadeIn" id="fadeIn">
         <hr/>
         <h2>EMPLOYMENT</h2>
         <hr/>

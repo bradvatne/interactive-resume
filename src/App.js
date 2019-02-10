@@ -17,7 +17,8 @@ class App extends Component {
     super(props);
     this.state = {
       currentPage: "/home",
-      dropdown: false
+      dropdown: false,
+      nav: true
     };
   }
 
@@ -33,24 +34,34 @@ class App extends Component {
   // State handler for status of the dropdown menu
   toggleDropdown = () => {
     this.setState({
-      dropdown: !this.state.dropdown
+      dropdown: !this.state.dropdown,
     });
   }
 
+  // Event listener for scroll to hide nav bar
+
+
   render() {
+
+  
+    
+
     return (
       <div className="app">
         <div className="layer">
           <div className="component">
             <Router>
-              <div className="container">
-                <div>
+              <div
+              className="container" id="container">
+            
+                  <div id="navigation">
                   <Nav
                     pageHandler={this.pageHandler}
                     toggleDropdown={this.toggleDropdown}
                     dropdown={this.state.dropdown}
                   />
-                </div>
+                  </div>
+           
 
                 {this.state.dropdown ? (
                   <SmallNav

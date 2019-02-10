@@ -249,6 +249,20 @@ th{
   display: none;
 }
 
+.shownav {
+  position: fixed;
+  opacity: 0;
+  transition: ease-out;
+  transition-duration: 2s;
+}
+
+.hidenav {
+  opacity: 0;
+  transition-duration: 2s;
+  transition: ease-out;
+
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -291,3 +305,4 @@ th{
     transform: translateX(0);
   }
 }
+
