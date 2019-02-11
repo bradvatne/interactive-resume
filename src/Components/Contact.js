@@ -4,7 +4,9 @@ export class Contact extends Component {
   render() {
     return (
       <div className="fadeIn">
-        <hr />
+      <hr/>
+      <h2>CONTACT</h2>
+      <hr/>
         <div className="contact-boxes">
           <a href="mailto:bradvatne@gmail.com">
             <i class="far fa-envelope" />
