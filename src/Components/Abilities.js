@@ -49,22 +49,22 @@ export class Abilities extends Component {
         </tr>
         <tr>
         <td>Github/Git</td>
-        <td>AJAX</td>
-        </tr>
-        <tr>
-        <td>Promises</td>
-        <td>API's</td>
-        </tr>
-        <tr>
-        <td>Babel</td>
         <td>NPM</td>
         </tr>
         <tr>
-        <td>Component Lifecycle</td>
-        <td>Node.js</td>
+        <td>Axios</td>
+        <td>AJAX</td>
         </tr>
         <tr>
-        <td>Axios</td>
+        <td>SQLlite</td>
+        <td>Django</td>
+        </tr>
+        <tr>
+        <td>Redux</td>
+        <td>React-Router</td>
+        </tr>
+        <tr>
+        <td>Component Lifecycle</td>
         <td>Flexbox/Grid</td>
         </tr>
         <tr>
