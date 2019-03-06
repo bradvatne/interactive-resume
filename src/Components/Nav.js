@@ -104,7 +104,7 @@ export class Nav extends Component {
                 to={"/contact"}
                 onClick={() => pageHandler("/contact")}
               >
-                CONTACT
+                SOCIAL
               </NavLink>
             </li>
           </ul>

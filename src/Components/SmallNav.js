@@ -77,7 +77,7 @@ class SmallNav extends Component {
               to={"/contact"}
               onClick={() => this.doHandle("/contact")}
             >
-              CONTACT
+              SOCIAL
             </Link>
           </li>
         </ul>

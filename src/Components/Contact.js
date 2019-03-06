@@ -5,7 +5,7 @@ export class Contact extends Component {
     return (
       <div className="fadeIn">
       <hr/>
-      <h2>CONTACT</h2>
+      <h2>SOCIAL</h2>
       <hr/>
         <div className="contact-boxes">
           <a href="mailto:bradvatne@gmail.com">
@@ -14,8 +14,11 @@ export class Contact extends Component {
           <a href="https://www.github.com/notbrad">
             <i class="fab fa-github" />
           </a>
-          <a href="https://www.linkedin.com/in/brad-vatne-525533179/">
+          <a href="https://www.linkedin.com/in/bradvatne/">
             <i class="fab fa-linkedin-in" />
+          </a>
+          <a href="https://www.youtube.com/channel/UCNGyzxKD8MJATTBv_QPaTeg/featured">
+            <i class="fab fa-youtube" />
           </a>
         </div>
         <hr />
