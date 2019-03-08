@@ -1,14 +1,15 @@
 import React from "react";
 import content from "../content";
 
-const Social = () => {
   const { social } = content;
   const { email, linkedin, github, youtube } = social;
   const socials = [email, linkedin, github, youtube];
 
+
+const Social = () => {
   return (
     <div className="fadeIn">
-      <hr />
+    <hr/>
       <div className="contact-boxes">
         {socials.map(social => (
           <a href={social.url}>
@@ -16,9 +17,9 @@ const Social = () => {
           </a>
         ))}
       </div>
-      <hr />
     </div>
   );
 };
 
 export default Social;
+

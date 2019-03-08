@@ -57,6 +57,33 @@
       "url": "https://www.youtube.com/channel/UCNGyzxKD8MJATTBv_QPaTeg/featured",
       "class": "fab fa-youtube"
     }
+  },
+  "knowledge": {
+    "languages": {
+      "html": {
+        "name": "HTML",
+        "level": 4
+      },
+      "css": {
+        "name": "HTML",
+        "level": 4
+      },
+      "js": {
+        "name": "HTML",
+        "level": 4
+      },
+      "react": {
+        "name": "HTML",
+        "level": 4
+      },
+      "python": {
+        "name": "HTML",
+        "level": 4
+      },
+      "java": {
+        "name": "HTML",
+        "level": 4
+      }
+    }
   }
-
 }
