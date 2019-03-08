@@ -55,11 +55,6 @@ hr {
   animation-fill-mode: forwards;
 }
 
-p {
-  animation-name: fadeIn;
-  animation-duration: 1s;
-}
-
 .navlist {
   width: 100%;
   top: 0px;

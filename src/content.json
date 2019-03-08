@@ -4,16 +4,18 @@
       "name": "University of Victoria",
       "date": "Graduating Fall 2020",
       "spec": "BACHELOR OF SCIENCE - COMPUTER SCIENCE AND PSYCHOLOGY (COMBINED)",
-      "description": "I studied general sciences in my first two years, including classes such as; calculus, physics, organic chemistry, biology and psychology. Feeling a lack of direction, I took a few years off before returning enthusiastically to pursue a combined major of Computer Science and Psychology. The GPA of courses taken since my return is currently 3.8 (On a 4 point scale)."
+      "description": "Excelled in classes such as: calculus, physics, organic chemistry, biology, computer science, and psychology."
     },
     "fcc": {
       "name": "FreeCodeCamp",
+      "date": "September 2018",
       "url": "freecodecamp.org/certification/scradley/responsive-web-design",
       "spec": "RESPONSIVE WEB DESIGN",
       "description": "Basic HTML and HTML5, CSS, Applied Visual Design, Applied Accesibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects."
     },
     "tylerm": {
       "name": "TYLERMCGINNIS.COM",
+      "date": "January 2019",
       "url": "tylermcginnis.com/courses/react-fundamentals/",
       "spec": "REACT FUNDAMENTALS",
       "description": "NPM, Webpack4, Babel, Proptypes, Props and State Management, Stateless Functional Components, Component Life Cycle + AJAX, Axios,Promises, API"
@@ -60,30 +62,13 @@
   },
   "knowledge": {
     "languages": {
-      "html": {
-        "name": "HTML",
-        "level": 4
-      },
-      "css": {
-        "name": "CSS",
-        "level": 4
-      },
-      "js": {
-        "name": "Javascript",
-        "level": 3
-      },
-      "react": {
-        "name": "React",
-        "level": 2
-      },
-      "python": {
-        "name": "Python",
-        "level": 2
-      },
-      "django": {
-        "name": "Django",
-        "level": 2
+      "HTML": 4,
+      "CSS": 4,
+      "Javascript": 3,
+      "React": 2,
+      "Python": 2,
+      "Django":2
       }
     }
   }
-}
+

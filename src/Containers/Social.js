@@ -1,8 +1,7 @@
 import React from "react";
 import content from "../content";
 
-  const { social } = content;
-  const { email, linkedin, github, youtube } = social;
+  const { email, linkedin, github, youtube } = content.social;
   const socials = [email, linkedin, github, youtube];
 
 

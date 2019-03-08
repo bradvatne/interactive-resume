@@ -5,7 +5,13 @@ import Nav from "./Components/Nav.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Name from "./Components/Name.js";
 import SmallNav from "./Components/SmallNav.js";
-import { Education, Employment, Profile, Social, Knowledge } from "./Containers";
+import {
+  Education,
+  Employment,
+  Profile,
+  Social,
+  Knowledge
+} from "./Containers";
 
 class App extends Component {
   constructor(props) {
@@ -52,7 +58,7 @@ class App extends Component {
                     dropdown={this.state.dropdown}
                   />
                 ) : null}
-                
+
                 <Switch>
                   <Route exact path="/" component={Name} />
                   <Route exact path="/interactive-resume" component={Name} />
@@ -67,7 +73,6 @@ class App extends Component {
             </Router>
           </div>
         </div>
-        
       </div>
     );
   }

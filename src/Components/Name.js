@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Github from "./Github.js";
+import { Social } from "../Containers";
 
 export class Name extends Component {
   render() {

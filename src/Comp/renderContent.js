@@ -1,4 +1,4 @@
-import React, {Fragment} from "react";
+import React, { Fragment } from "react";
 import content from "../content";
 
 //Refactored for modularity mar 7 2019
@@ -8,10 +8,10 @@ export const renderTitle = props => {
   return (
     <div className="experiences-title">
       <h3>{props.name}</h3>
-      {props.url !== undefined ? (
-        <p>{certificate(props.url)}</p>
-      ) : (
+      {props.date !== undefined ? (
         <p>{props.date}</p>
+      ) : (
+        <p>{certificate(props.url)}</p>
       )}
     </div>
   );
@@ -51,15 +51,22 @@ export const renderContentBox = props => {
   );
 };
 
-export const renderLanguageTable = (props) => {
-  
-  // const langs = Object.keys(props)
-  const levels = Object.values(props)
-  // console.log(langs)
-  console.log(levels)
+export const renderLanguageTable = () => {
+  const languagesList = Object.keys(content.knowledge.languages);
+  const levelsList = Object.values(content.knowledge.languages);
 
-  levels.map()
+  const renderedStars = levelsList.map(length =>
+    Array.from({ length }, index => (
+      <i key={index} className="fa fa-star" aria-hidden="true" />
+    ))
+  );
 
+  const renderedLanguage = languagesList.map((language, index) => (
+    <tr key="language">
+      <td>{language}</td>
+      <td>{renderedStars[index]}</td>
+    </tr>
+  ));
 
   return (
     <div className="abilities-container">
@@ -73,8 +80,10 @@ export const renderLanguageTable = (props) => {
               <h3>LEVEL</h3>
             </th>
           </tr>
+          {renderedLanguage}
         </tbody>
       </table>
+      {renderToolsTable}
       <hr />
     </div>
   );
@@ -82,58 +91,40 @@ export const renderLanguageTable = (props) => {
 
 export const renderToolsTable = props => {
   return (
-  <table>
-  <tbody>
-    <tr>
-      <th>
-        <h3>TOOLS/CONCEPTS</h3>
-      </th>
-      <th> </th>
-    </tr>
-    <tr>
-      <td>Github/Git</td>
-      <td>NPM</td>
-    </tr>
-    <tr>
-      <td>Axios</td>
-      <td>AJAX</td>
-    </tr>
-    <tr>
-      <td>SQLlite</td>
-      <td>Django</td>
-    </tr>
-    <tr>
-      <td>Redux</td>
-      <td>React-Router</td>
-    </tr>
-    <tr>
-      <td>Component Lifecycle</td>
-      <td>Flexbox/Grid</td>
-    </tr>
-    <tr>
-      <td>Functional Programs</td>
-      <td>OOP's</td>
-    </tr>
-  </tbody>
-</table>
-  )
-}
-
-
-// export const renderLanguage = props => {
-
-//   return (
-//     <tr>
-//       <td>{props.name}</td>
-//       <td>
-//         {stars.map(() => (
-//           <i className="fa fa-star" aria-hidden="true" />
-//         ))}
-//       </td>
-//     </tr>
-//   );
-// };
-
-export const test = () => {
-  for (let lang in content.knowledge.languages) console.log(lang.name);
+    <table>
+      <tbody>
+        <tr>
+          <th>
+            <h3>TOOLS/CONCEPTS</h3>
+          </th>
+          <th> </th>
+        </tr>
+        <tr>
+          <td>Github/Git</td>
+          <td>NPM</td>
+        </tr>
+        <tr>
+          <td>Axios</td>
+          <td>AJAX</td>
+        </tr>
+        <tr>
+          <td>SQLlite</td>
+          <td>Django</td>
+        </tr>
+        <tr>
+          <td>Redux</td>
+          <td>React-Router</td>
+        </tr>
+        <tr>
+          <td>Component Lifecycle</td>
+          <td>Flexbox/Grid</td>
+        </tr>
+        <tr>
+          <td>Functional Programs</td>
+          <td>OOP's</td>
+        </tr>
+      </tbody>
+    </table>
+  );
 };
+
