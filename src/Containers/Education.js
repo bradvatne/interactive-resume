@@ -2,19 +2,18 @@ import React, { Fragment } from "react";
 import content from "../content";
 import { renderContentBox } from "../Comp/renderContent";
 
-const [uvic, fcc, tylerm] = content;
+const {uvic, fcc, tylerm} = content.education;
 
 const Education = () => {
   return (
-    <Fragment>
+    <div className="fadeIn">
+    <hr/>
       {renderContentBox(uvic)}
-      <hr />
       {renderContentBox(fcc)}
-      <hr />
       {renderContentBox(tylerm)}
-      <hr />
-    </Fragment>
+    </div>
   );
 };
 
 export default Education;
+

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Fragment} from "react";
 
 //Refactored for modularity mar 7 2019
 
@@ -40,9 +40,12 @@ export const certificate = url => {
 //Renders experiences box container
 export const renderContentBox = props => {
   return (
-    <div className="experiences-box">
-      {renderTitle(props)}
-      {renderDescription(props)}
-    </div>
+    <Fragment>
+      <div className="experiences-box">
+        {renderTitle(props)}
+        {renderDescription(props)}
+      </div>
+      <hr />
+    </Fragment>
   );
 };

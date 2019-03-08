@@ -65,24 +65,24 @@
         "level": 4
       },
       "css": {
-        "name": "HTML",
+        "name": "CSS",
         "level": 4
       },
       "js": {
-        "name": "HTML",
-        "level": 4
+        "name": "Javascript",
+        "level": 3
       },
       "react": {
-        "name": "HTML",
-        "level": 4
+        "name": "React",
+        "level": 2
       },
       "python": {
-        "name": "HTML",
-        "level": 4
+        "name": "Python",
+        "level": 2
       },
-      "java": {
-        "name": "HTML",
-        "level": 4
+      "django": {
+        "name": "Django",
+        "level": 2
       }
     }
   }

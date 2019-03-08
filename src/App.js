@@ -1,16 +1,11 @@
-import React, { Component } from "react";
 import "./App.css";
 import "./Media.css";
+import React, { Component } from "react";
 import Nav from "./Components/Nav.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Profile from "./Components/Profile.js";
-import Employment from "./Components/Employment.js";
-import Contact from "./Components/Contact.js";
-import Abilities from "./Components/Abilities.js";
 import Name from "./Components/Name.js";
 import SmallNav from "./Components/SmallNav.js";
-import {Education} from './Containers'
-
+import { Education, Employment, Profile, Social, Knowledge } from "./Containers";
 
 class App extends Component {
   constructor(props) {
@@ -27,15 +22,14 @@ class App extends Component {
       currentPage: page,
       nextPage: nextPage
     });
-  }
-
+  };
 
   // State handler for status of the dropdown menu
   toggleDropdown = () => {
     this.setState({
       dropdown: !this.state.dropdown
     });
-  }
+  };
 
   render() {
     return (
@@ -51,7 +45,6 @@ class App extends Component {
                     dropdown={this.state.dropdown}
                   />
                 </div>
-
                 {this.state.dropdown ? (
                   <SmallNav
                     pageHandler={this.pageHandler}
@@ -59,7 +52,7 @@ class App extends Component {
                     dropdown={this.state.dropdown}
                   />
                 ) : null}
-
+                
                 <Switch>
                   <Route exact path="/" component={Name} />
                   <Route exact path="/interactive-resume" component={Name} />
@@ -67,13 +60,14 @@ class App extends Component {
                   <Route path="/profile" component={Profile} />
                   <Route path="/education" component={Education} />
                   <Route path="/employment" component={Employment} />
-                  <Route path="/abilities" component={Abilities} />
-                  <Route path="/contact" component={Contact} />
+                  <Route path="/abilities" component={Knowledge} />
+                  <Route path="/contact" component={Social} />
                 </Switch>
               </div>
             </Router>
           </div>
         </div>
+        
       </div>
     );
   }

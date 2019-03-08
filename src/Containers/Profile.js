@@ -2,7 +2,7 @@ import React from "react";
 import Portrait from "../brad.jpg";
 import content from "../content.json"
 
-const Profile = props => {
+const Profile = () => {
   return (
     <div className="fadeIn">
     <hr/>
