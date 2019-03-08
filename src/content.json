@@ -38,5 +38,25 @@
       "spec": "DIGITAL MARKETER",
       "description": "Handled digital marketing for a local eCommerce website generating over a million dollars yearly revenue. I handled the customer lifecycle with a strategic funnel of web applications. I performed AdWords keyword research and PPC optimization, employed retargeting campaigns with Facebook/Instagram advertising, used MailChimp to convert captured leads and retain customers, and provided general advice in all manners of marketing"
     }
+  },
+  "aboutme": " I'm currently a student at the University of Victoria in beautiful British Columbia. I took a gap in the middle of my degree to work, save money, travel the world, and soul search. During this time, I learned alot about myself and was inspired to head back to school to finish my degree. In my spare time, I enjoy trying out new restaurants with my girlfriend, reading, running, hiking, listening to podcasts, and writing code of all sorts. Throughout my life, I've carried a strong passion for creative expression. Programming combines an opportunity to release my creative energy while simultaneously challenging me intellectually. Naturally, I've fallen in love with it. I have chosen Javascript as my main language because of its versatility and wide range of libraries. At the moment, I am having a lot of fun learning React. In the future I have plans to learn Electron and React Native, because the power of cross-platform code is very appealing to me.",  
+  "social": {
+    "email" :{
+      "url": "https://www.github.com/notbrad",
+      "class": "far fa-envelope"
+    },
+    "linkedin" :{
+      "url": "https://www.linkedin.com/in/bradvatne/",
+      "class": "fab fa-linkedin-in"
+    },
+    "github" :{
+      "url": "https://www.github.com/notbrad",
+      "class": "fab fa-github"
+    },
+    "youtube" :{
+      "url": "https://www.youtube.com/channel/UCNGyzxKD8MJATTBv_QPaTeg/featured",
+      "class": "fab fa-youtube"
+    }
   }
+
 }
