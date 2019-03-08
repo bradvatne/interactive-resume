@@ -4,12 +4,12 @@ import "./Media.css";
 import Nav from "./Components/Nav.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Profile from "./Components/Profile.js";
-import Education from "./Components/Education.js";
 import Employment from "./Components/Employment.js";
 import Contact from "./Components/Contact.js";
 import Abilities from "./Components/Abilities.js";
 import Name from "./Components/Name.js";
 import SmallNav from "./Components/SmallNav.js";
+import {Education} from './Containers'
 
 
 class App extends Component {
