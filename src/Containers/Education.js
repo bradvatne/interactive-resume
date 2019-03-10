@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 import content from "../content";
 import { renderContentBox } from "../Comp/renderContent";
 

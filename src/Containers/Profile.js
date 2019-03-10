@@ -9,7 +9,7 @@ const Profile = () => {
       <div className="aboutme-boxes">
         <div className="aboutme-box1">
           <br />
-          {content.aboutme}
+          {content.aboutme.replace(/\n/g,"<br/>")}
           <p />
         </div>
         <div className="aboutme-box2">
