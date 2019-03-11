@@ -89,15 +89,6 @@ export class Nav extends Component {
                 ABILITIES
               </NavLink>
             </li>
-            {/* <li className="right"> */}
-              {/* <Link
-                className="link"
-                to={"/projects"}
-                onClick={() => pageHandler("/projects")}
-              >
-                PROJECTS
-              </Link> */}
-            {/* </li> */}
             <li className="right">
               <NavLink
                 className="link"

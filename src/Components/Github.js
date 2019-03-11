@@ -33,7 +33,7 @@ class Github extends Component {
           <p>
             This is still under construction, but its basic purpose is to
             demonstrate I can make an API call.<br/>
-            <br />I performed a '{items[0].type}' on '{items[0].repo.name}' on the date '{items[0].created_at.slice(0, 10)}'
+            I performed a '{items[0].type}' on '{items[0].repo.name}' on the date '{items[0].created_at.slice(0, 10)}'
           </p>
         </div>
       );

@@ -1,0 +1,74 @@
+{
+  "education": {
+    "uvic": {
+      "name": "University of Victoria",
+      "date": "Graduating Fall 2020",
+      "spec": "BACHELOR OF SCIENCE - COMPUTER SCIENCE AND PSYCHOLOGY (COMBINED)",
+      "description": "Excelled in classes such as: calculus, physics, organic chemistry, biology, computer science, and psychology."
+    },
+    "fcc": {
+      "name": "FreeCodeCamp",
+      "date": "September 2018",
+      "url": "freecodecamp.org/certification/scradley/responsive-web-design",
+      "spec": "RESPONSIVE WEB DESIGN",
+      "description": "Basic HTML and HTML5, CSS, Applied Visual Design, Applied Accesibility, Responsive Web Design Principles, CSS Flexbox, CSS Grid, Responsive Web Design Projects."
+    },
+    "tylerm": {
+      "name": "TYLERMCGINNIS.COM",
+      "date": "January 2019",
+      "url": "tylermcginnis.com/courses/react-fundamentals/",
+      "spec": "REACT FUNDAMENTALS",
+      "description": "NPM, Webpack4, Babel, Proptypes, Props and State Management, Stateless Functional Components, Component Life Cycle + AJAX, Axios,Promises, API"
+    }
+  },
+  "employment": {
+    "movement": {
+      "name": "MOVEMENT FOOD",
+      "date": "Jan 2017 - June 2018",
+      "spec": "DIGITAL MARKETER",
+      "description": "Handled digital marketing for a local eCommerce website generating over a million dollars yearly revenue. I handled the customer lifecycle with a strategic funnel of web applications. I performed AdWords keyword research and PPC optimization, employed retargeting campaigns with Facebook/Instagram advertising, used MailChimp to convert captured leads and retain customers, and provided general advice in all manners of marketing"
+    },
+    "independent": {
+      "name": "INDEPENDENT",
+      "date": "Dec 2015 - Jun 2018",
+      "spec": "FREELANCE DIGITAL MARKETER",
+      "description": "Consulted a wide variety of eCommerce businesses with their Facebook advertising optimization. My ability to work independently, meet deadlines, communicate, and provide detailed reports of key-performance indicators were vital skills."
+    },
+    "cov": {
+      "name": "CITY OF VANCOUVER",
+      "date": "April 2014 - Jan 2017",
+      "spec": "DIGITAL MARKETER",
+      "description": "Handled digital marketing for a local eCommerce website generating over a million dollars yearly revenue. I handled the customer lifecycle with a strategic funnel of web applications. I performed AdWords keyword research and PPC optimization, employed retargeting campaigns with Facebook/Instagram advertising, used MailChimp to convert captured leads and retain customers, and provided general advice in all manners of marketing"
+    }
+  },
+  "aboutme": "I'm currently a student at the University of Victoria in beautiful British Columbia. I took a gap in the middle of my degree to work, save money, travel the world, and soul search. During this time, I learned alot about myself and was inspired to head back to school to finish my degree.\\n In my spare time, I enjoy trying out new restaurants with my girlfriend, reading, running, hiking, listening to podcasts, and writing code of all sorts. \\nThroughout my life, I've carried a strong passion for creative expression. Programming combines an opportunity to release my creative energy while simultaneously challenging me intellectually. Naturally, I've fallen in love with it.\\nI have chosen Javascript as my main language because of its versatility and wide range of libraries. At the moment, I am having a lot of fun learning React. In the future I have plans to learn Electron and React Native, because the power of cross-platform code is very appealing to me.",  
+  "social": {
+    "email" :{
+      "url": "https://www.github.com/notbrad",
+      "class": "far fa-envelope"
+    },
+    "linkedin" :{
+      "url": "https://www.linkedin.com/in/bradvatne/",
+      "class": "fab fa-linkedin-in"
+    },
+    "github" :{
+      "url": "https://www.github.com/notbrad",
+      "class": "fab fa-github"
+    },
+    "youtube" :{
+      "url": "https://www.youtube.com/channel/UCNGyzxKD8MJATTBv_QPaTeg/featured",
+      "class": "fab fa-youtube"
+    }
+  },
+  "knowledge": {
+    "languages": {
+      "HTML": 4,
+      "CSS": 4,
+      "Javascript": 3,
+      "React": 2,
+      "Python": 2,
+      "Django":2
+      }
+    }
+  }
+
