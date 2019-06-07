@@ -12,7 +12,7 @@ class Github extends Component {
   }
 
   componentDidMount() {
-    fetch("https://api.github.com/users/notbrad/events/public")
+    fetch("https://api.github.com/users/bradvatne/events/public")
       .then(res => res.json())
       .then(json => {
         this.setState({
